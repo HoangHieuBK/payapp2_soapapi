@@ -1,0 +1,2280 @@
+<bankplus>
+    <!-- cau hinh cac truong-->
+    <isopackager>
+        <isofield fid="0" length="4" name="MTI" type="int" />
+        <isofield fid="1" length="16" name="BIT MAP" type="int" />
+        <isofield fid="2" length="19" name="CARD_NUMBER" type="int" />
+        <isofield fid="3" length="6" name="PROCESS_CODE" type="string" />
+        <isofield fid="4" length="12" name="TRANSACTION_AMOUNT" type="int" />
+        <isofield fid="7" length="14" name="TRANSMISSION_DATE" type="date" />
+        <isofield fid="8" length="8" name="INQUIRY_START_DATE" type="date" />
+        <isofield fid="9" length="8" name="INQUIRY_END_DATE" type="date" />
+        <isofield fid="11" length="6" name="SYSTEM_TRACE" type="int" />
+        <isofield fid="14" length="8" name="ATM_HOLD_DATE" type="date" />
+        <isofield fid="19" length="20" name="PROVINCE_CODE" type="string" />
+        <isofield fid="21" length="20" name="CARD_CLOSED_CODE" type="int" />
+        <isofield fid="22" length="1" name="RECEIVED_MONEY_TYPE" type="int" />
+        <isofield fid="24" length="1" name="CARD_REOPEN_TYPE" type="int" />
+        <isofield fid="25" length="30" name="SERVICE_CODE" type="int" />
+        <isofield fid="26" length="1" name="ACCOUNT_CHECK_TYPE" type="int" />
+        <isofield fid="27" length="1" name="REGISTRATION_TYPE" type="int" />
+        <isofield fid="28" length="9" name="TRANSACTION_FEE" type="int" />
+        <isofield fid="30" length="99" name="ATM_AMOUNT_CHECK" type="int" />
+        <isofield fid="32" length="15" name="TELCO_CODE" type="string" />
+        <isofield fid="37" length="12" name="REF_NO" type="int" />
+        <isofield fid="33" length="99" name="MB_RM_MAIN" type="string" />
+        <isofield fid="34" length="99" name="MB_RM_SUB" type="string" />
+        <isofield fid="35" length="99" name="MONEY_SOURCE_BANK_CODE" type="string" />
+        <isofield fid="36" length="99" name="MONEY_RECEIVER_BANK_CODE" type="string" />
+        <isofield fid="38" length="1" name="ACCOUNT_TYPE" type="int" />
+        <isofield fid="39" length="3" name="RESPONSE_CODE" type="int" />
+        <isofield fid="40" length="6" name="SERVICE_INDICATOR" type="int" />
+        <isofield fid="41" length="10" name="SHOP_CODE" type="string" />
+        <isofield fid="42" length="40" name="STAFF_CODE" type="string" />
+        <isofield fid="43" length="999" name="VIETTEL_SHOP_ADDR" type="int" />
+        <isofield fid="44" length="20" name="BENEFICIARY_MSISDN" type="string" />
+        <isofield fid="45" length="20" name="BENEFICIARY_HOME_PHONE" type="string" />
+        <isofield fid="46" length="23" name="NAME_ON_CARD" type="string" />
+        <isofield fid="47" length="1" name="ISSUE_METHOD" type="int" />
+        <isofield fid="48" length="8" name="BIRTH_DAY" type="date" />
+        <isofield fid="49" length="3" name="CURRENCY_CODE" type="string" />
+        <isofield fid="50" length="999" name="TID_NUMBER" type="string" />
+        <isofield fid="51" length="99" name="AGENT_CODE" type="string" />
+        <isofield fid="52" length="999" name="AGENT_NAME" type="string" />
+        <isofield fid="53" length="16" name="CARD_CVV" type="string" />
+        <isofield fid="54" length="99" name="BALANCE" type="int" />
+        <isofield fid="55" length="25" name="REQUEST_ID" type="int" />
+        <isofield fid="56" length="3" name="CARD_STATUS" type="int" />
+        <isofield fid="57" length="1" name="CARD_LEVEL" type="int" />
+        <isofield fid="58" length="35" name="ACCOUNT_NAME" type="string" />
+        <isofield fid="59" length="35" name="CUSTOMER_NAME" type="string" />
+        <isofield fid="60" length="20" name="MSISDN" type="int" />
+        <isofield fid="61" length="6" name="CUSTOMER_GENDER" type="string" />
+        <isofield fid="62" length="99" name="PASSWORD" type="string" />
+        <isofield fid="63" length="15" name="OTP" type="int" />
+        <isofield fid="64" length="32" name="MESSAGE_SIGNATURE" type="int" />
+        <isofield fid="65" length="99" name="CUSTOMER_TYPE" type="string" />
+        <isofield fid="66" length="1" name="ID_TYPE" type="int" />
+        <isofield fid="67" length="2" name="TRANSACTION_INQUIRY_TYPE" type="int" />
+        <isofield fid="68" length="999" name="CONTACT_ADDR" type="int" />
+        <isofield fid="69" length="99" name="CHANNEL_TYPE_ID" type="int" />
+        <isofield fid="73" length="12" name="INTEREST_AMOUNT" type="int" />
+        <isofield fid="74" length="1" name="STATUS" type="int" />
+        <isofield fid="75" length="99" name="DEV_STAFF_CODE" type="string" />
+        <isofield fid="76" length="99" name="DEV_STAFF_NAME" type="string" />
+        <isofield fid="78" length="20" name="BUSINESS_NO" type="int" />
+        <isofield fid="79" length="30" name="FAX" type="int" />
+        <isofield fid="80" length="10" name="TRANSACTION_TYPE" type="int" />
+        <isofield fid="81" length="30" name="VENUE_ID" type="string" />
+        <isofield fid="82" length="1" name="FEE_SOURCE" type="int" />
+        <isofield fid="83" length="13" name="DISCOUNT_BANK" type="string" />
+        <isofield fid="85" length="99" name="ADDITIONAL_DATA" type="string" />
+        <isofield fid="86" length="99" name="CREDIT_AMOUNT" type="string" />
+        <isofield fid="87" length="1" name="INTEREST_TYPE" type="int" />
+        <isofield fid="88" length="99" name="INTEREST_PERCENT" type="string" />
+        <isofield fid="89" length="1" name="CARD_REQUEST_TYPE" type="int" />
+        <isofield fid="90" length="99" name="BANK_TRANS_ID" type="string" />
+        <isofield fid="91" length="1" name="MOBILE_STATUS" type="int" />
+        <isofield fid="92" length="25" name="ORINGINAL_REQUEST_ID" type="int" />
+        <isofield fid="93" length="20" name="MOBILE_CONTACT" type="int" />
+        <isofield fid="95" length="13" name="DISCOUNT" type="int" />
+        <isofield fid="96" length="99" name="PAYMENT_TYPE" type="string" />
+        <isofield fid="97" length="8" name="CARD_ISSUE_DATE" type="date" />
+        <isofield fid="98" length="10" name="BP_ACCOUNT_TYPE" type="string" />
+        <isofield fid="99" length="30" name="NATION_NALITY" type="string" />
+        <isofield fid="100" length="99" name="VIETTEL_BANK_CODE" type="string" />
+        <isofield fid="101" length="99" name="PASSWORD_EX" type="string" />
+        <isofield fid="102" length="25" name="ACCOUNT_NO" type="int" />
+        <isofield fid="103" length="20" name="BENEFICIARY_ACCOUNT_NO" type="int" />
+        <isofield fid="104" length="25" name="IDENTITY_NO" type="int" />
+        <isofield fid="105" length="999" name="EMAIL_ADDRESS" type="string" />
+        <isofield fid="106" length="25" name="BEN_IDENTITY" type="int" />
+        <isofield fid="107" length="99" name="PROVINCE_NAME" type="string" />
+        <isofield fid="108" length="25" name="CARD_SERIAL" type="int" />
+        <isofield fid="109" length="8" name="DATE_ISSUSE" type="date" />
+        <isofield fid="110" length="999" name="PLACE_ISSUSE" type="string" />
+        <isofield fid="111" length="999" name="CUSTOMER_ADDRESS" type="string" />
+        <isofield fid="112" length="999" name="ADDITION_DATA" type="string" />
+        <isofield fid="113" length="999" name="ACC_LIST" type="int" />
+        <isofield fid="114" length="35" name="ATM_LOCATION" type="string" />
+        <isofield fid="115" length="35" name="ATM_ID_CODE" type="int" />
+        <isofield fid="117" length="999" name="VT_SHOP_NAME" type="string" />
+        <isofield fid="118" length="99" name="CONTENT_DESCRIPTION_TRANSACTION" type="string" />
+        <isofield fid="119" length="999" name="BILLING_CODE" type="int" />
+        <isofield fid="120" length="999" name="CUSTOMER_SIGNATURE" type="string" />
+        <isofield fid="121" length="99" name="CUSTOMER_CODE" type="int" />
+        <isofield fid="122" length="999" name="BENEFICIARY_NAME" type="string" />
+        <isofield fid="123" length="999" name="BENEFICIARY_BANK_CODE" type="string" />
+        <isofield fid="124" length="999" name="CONTENT_DESCRIPTIONS_SERVICE" type="string" />
+        <isofield fid="125" length="99" name="CUSTOMER_CODE_VT" type="int" />
+        <isofield fid="126" length="999" name="SIGNATURE_URL" type="string" />
+        <isofield fid="127" length="35" name="BANK_BRANCH" type="string" />
+        <isofield fid="84" length="12" name="DISCOUNT_PERCENT" type="int" />
+        <isofield fid="94" length="99" name="REMAINING_PAYMENT" type="string" />
+        <isofield fid="116" length="99" name="BEN_BANK_NAME" type="string" />
+
+    </isopackager>
+    <!-- nhung truong nao can thiet trong tat ca ban tin-->
+    <global>
+        <field ref="MTI" request="M" response="M" requestJson="requestMti" responseJson="responseMti" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="processCode" responseJson="processCode" />
+        <field ref="TRANSMISSION_DATE" request="M" response="M" requestJson="requestDate" responseJson="responseDate" />
+        <field ref="SYSTEM_TRACE" request="M" response="M" requestJson="auditNo" responseJson="auditNo" />
+        <!-- Tu thiet lap trong code -->
+        <!--
+        <field ref="TELCO_CODE" request="M" requestJson="clientId"/>
+        -->
+        <!-- end -->
+        <field ref="REQUEST_ID" request="M" response="M" requestJson="requestId" responseJson="requestId" />
+        <field ref="RESPONSE_CODE" response="M" responseJson="errorCode" />
+        <field ref="BALANCE" response="O" responseJson="balance" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="BANK_TRANS_ID" response="O" responseJson="bankTransId" />
+
+    </global>
+    <!-- Cau hinh ban tin-->
+
+
+    <isomsg processCode="301000">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="ACCOUNT_NO" request="O" response="O" requestJson="accountNo" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCode" />
+    </isomsg>
+
+
+    <isomsg processCode="300002">
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="realServiceCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="ADDITION_DATA" response="O" responseJson="miniStatementData" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" responseJson="benName" />
+        <field ref="ORINGINAL_REQUEST_ID" request="O" requestJson="srcRequestId" response="O" responseJson="srcRequestId" />
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="referenceCode" responseJson="referenceCode" />
+        <field ref="CUSTOMER_NAME" request="O" response="O" requestJson="customerName" />
+        <field ref="SERVICE_INDICATOR" request="O" requestJson="serviceIndicator" />
+    </isomsg>
+
+    <isomsg processCode="600000">
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="realServiceCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="PASSWORD" request="O" response="O" requestJson="pin" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" responseJson="benName" />
+        <field ref="ORINGINAL_REQUEST_ID" request="O" requestJson="srcRequestId" response="O" responseJson="srcRequestId" />
+        <field ref="TID_NUMBER" request="O" requestJson="tidNumber" />
+        <field ref="BENEFICIARY_BANK_CODE" request="O" response="O" requestJson="bankCode" />
+        <field ref="OTP" response="M" responseJson="otp" />
+        <field ref="TRANSACTION_TYPE" request="O" response="O" requestJson="transactionType" />
+        <field ref="SERVICE_INDICATOR" request="O" requestJson="serviceIndicator" />
+        <!-- os_hungnt otp payment start -->
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" response="O" requestJson="creditAccountNumber" responseJson="creditAccountNumber" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="O" response="O" requestJson="moneySourceBankCode" />
+        <field ref="REF_NO" request="O" response="O" requestJson="referenceCode" responseJson="referenceCode" />
+        <field ref="TELCO_CODE" request="O" response="O" requestJson="telcoCode" responseJson="telcoCode" />
+        <!-- os_hungnt otp payment end -->
+    </isomsg>
+
+    <isomsg processCode="300001">
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="realServiceCode" />
+        <field ref="MSISDN" request="M" requestJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="M" requestJson="amount" />
+        <field ref="ADDITION_DATA" response="O" responseJson="miniStatementData" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" responseJson="benName" />
+        <field ref="ORINGINAL_REQUEST_ID" request="O" requestJson="srcRequestId" />
+        <field ref="TID_NUMBER" request="M" response="O" requestJson="referenceCode" />
+        <field ref="VT_SHOP_NAME" request="O" requestJson="customer" />
+        <field ref="DISCOUNT" request="O" requestJson="discountAmount" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" requestJson="transContent" />
+        <field ref="CUSTOMER_NAME" request="O" response="O" requestJson="customerName" />
+        <field ref="FEE_SOURCE" request="O" requestJson="feeSource" />
+        <field ref="OTP" request="M" requestJson="otp" />
+        <field ref="TRANSACTION_FEE" request="O" requestJson="customerFee" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" requestJson="creditAccountNumber" />
+        <field ref="SERVICE_INDICATOR" request="O" requestJson="serviceIndicator" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <!-- add them mypacking-->
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCode" />
+        <field ref="CUSTOMER_CODE_VT" request="M" response="O" requestJson="customerCodeVT" />
+        <!-- add them ssc-->
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="tidNumber" responseJson="tidNumber" />
+    </isomsg>
+
+    <isomsg processCode="200001">
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="realServiceCode" />
+        <field ref="MSISDN" request="M" requestJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="M" requestJson="amount" />
+        <field ref="ADDITION_DATA" request="O" response="O" requestJson="miniStatementData" responseJson="miniStatementData" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" responseJson="benName" />
+        <field ref="ORINGINAL_REQUEST_ID" request="O" requestJson="srcRequestId" />
+        <field ref="TID_NUMBER" request="M" response="O" requestJson="referenceCode" />
+        <field ref="VT_SHOP_NAME" request="O" requestJson="customer" />
+        <field ref="DISCOUNT" request="O" requestJson="discountAmount" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" requestJson="transContent" />
+        <field ref="CUSTOMER_NAME" request="O" response="O" requestJson="customerName" />
+        <field ref="FEE_SOURCE" request="O" requestJson="feeSource" />
+        <field ref="OTP" request="M" requestJson="otp" />
+        <field ref="TRANSACTION_FEE" request="O" requestJson="customerFee" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" response="O" requestJson="creditAccountNumber" responseJson="creditAccountNumber" />
+        <field ref="SERVICE_INDICATOR" request="O" requestJson="serviceIndicator" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <!-- add them mypacking-->
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="CUSTOMER_CODE_VT" request="M" response="O" requestJson="customerCodeVT" />
+        <!-- add them ssc-->
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="tidNumber" responseJson="tidNumber" />
+
+        <field ref="STATUS" request="O" response="O" requestJson="status" responseJson="status" />
+        <field ref="CARD_NUMBER" response="O" responseJson="cardNumber" />
+    </isomsg>
+
+    <isomsg processCode="649000">
+        <!-- os_hungnt2 hoan huy START-->
+        <field ref="MTI" request="O" response="O" requestJson="requestMti" responseJson="responseMti" />
+        <field ref="BILLING_CODE" request="O" response="O" requestJson="billingCode" responseJson="billingCode" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="BENEFICIARY_BANK_CODE" request="O" response="O" requestJson="benBankCode" responseJson="benBankCode" />
+        <!-- os_hungnt2 hoan huy END-->
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="trans_fee" responseJson="trans_fee" />
+        <field ref="SERVICE_CODE" request="O" response="O" requestJson="serviceCode" responseJson="serviceCode" />
+        <field ref="TELCO_CODE" request="O" response="O" requestJson="telcoCode" responseJson="telcoCode" />
+        <field ref="REF_NO" request="O" response="O" requestJson="referenceCode" responseJson="referenceCode" />
+        <field ref="SERVICE_INDICATOR" request="O" response="O" requestJson="serviceIndicator" responseJson="serviceIndicator" />
+        <field ref="ORINGINAL_REQUEST_ID" request="O" response="O" requestJson="srcRequestId" responseJson="srcRequestId" />
+        <field ref="TRANSACTION_TYPE" request="O" response="O" requestJson="transType" responseJson="transType" />
+        <field ref="BENEFICIARY_MSISDN" request="O" response="O" requestJson="benMsisdn" responseJson="benMsisdn" />
+        <field ref="ACCOUNT_NO" request="M" response="O" requestJson="accountNumber" responseJson="accountNumber" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="M" response="O" requestJson="creditAccountNumber" responseJson="creditAccountNumber" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" responseJson="transContent" />
+    </isomsg>
+
+    <!-- phuongtd LIXI 2018-->
+    <!-- phuongtd check PIN VTT 302000-->
+
+    <isomsg processCode="302000">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" responseJson="pin" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="PROCESS_CODE" response="M" request="O" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+    </isomsg>
+
+    <isomsg processCode="003700">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="SERVICE_INDICATOR" request="M" response="O" requestJson="serviceIndicator" responseJson="serviceIndicator" />
+        <field ref="CUSTOMER_CODE_VT" request="M" response="O" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="PROCESS_CODE" response="M" request="O" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="M" requestJson="amount" responseJson="amount" />
+    </isomsg>
+
+
+    <!--  chuyen theo so TK -->
+    <!-- 642000 -->
+    <isomsg processCode="642000">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="SERVICE_INDICATOR" request="M" response="O" requestJson="serviceIndicator" responseJson="serviceIndicator" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="M" requestJson="amount" responseJson="amount" />
+        <field ref="OTP" request="O" response="O" requestJson="otp" responseJson="otp" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCode" />
+        <field ref="MONEY_RECEIVER_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCodeRecv" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="M" response="O" requestJson="creditAccountNumber" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="M" request="M" requestJson="transContent" responseJson="transContent" />
+        <field ref="BENEFICIARY_NAME" response="O" request="M" requestJson="accountBenName" responseJson="accountBenName" />
+        <field ref="PROCESS_CODE" response="M" request="O" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+    </isomsg>
+
+    <!-- 640000 -->
+    <isomsg processCode="640000">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="M" requestJson="amount" responseJson="amount" />
+        <field ref="OTP" request="M" response="O" requestJson="otp" responseJson="otp" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCode" />
+        <field ref="MONEY_RECEIVER_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCodeRecv" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="M" response="O" requestJson="creditAccountNumber" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="BENEFICIARY_NAME" response="M" request="M" requestJson="accountBenName" responseJson="accountBenName" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="M" request="M" requestJson="transContent" responseJson="transContent" />
+        <field ref="BENEFICIARY_NAME" response="O" request="O" requestJson="accountBenName" responseJson="accountBenName" />
+        <field ref="PROCESS_CODE" response="M" request="O" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+    </isomsg>
+
+    <!--  chuyen theo so DT -->
+    <!-- 642000 -->
+    <isomsg processCode="642000_SDT">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="M" requestJson="amount" responseJson="amount" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="SERVICE_INDICATOR" request="M" response="O" requestJson="serviceIndicator" responseJson="serviceIndicator" />
+        <field ref="OTP" request="O" response="O" requestJson="otpCore" responseJson="otpCore" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCode" />
+        <field ref="MONEY_RECEIVER_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCodeRecv" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="M" request="M" requestJson="transContent" responseJson="transContent" />
+        <field ref="BENEFICIARY_NAME" response="O" request="M" requestJson="accountBenName" responseJson="accountBenName" />
+        <field ref="BENEFICIARY_MSISDN" response="O" request="O" requestJson="benMsisdn" responseJson="benMsisdn" />
+        <field ref="REQUEST_ID" response="M" request="M" requestJson="subRequestId" responseJson="subRequestId" />
+        <field ref="BENEFICIARY_BANK_CODE" response="M" request="M" requestJson="benBankCode" responseJson="benBankCode" />
+    </isomsg>
+
+    <!-- 640000 -->
+    <isomsg processCode="640000_SDT">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="M" requestJson="amount" responseJson="amount" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="OTP" request="M" response="O" requestJson="otpCore" responseJson="otpCore" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCode" />
+        <field ref="MONEY_RECEIVER_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCodeRecv" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="BENEFICIARY_NAME" response="M" request="M" requestJson="accountBenName" responseJson="accountBenName" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="M" request="M" requestJson="transContent" responseJson="transContent" />
+        <field ref="BENEFICIARY_MSISDN" response="O" request="O" requestJson="benMsisdn" responseJson="benMsisdn" />
+        <field ref="REQUEST_ID" response="M" request="M" requestJson="subRequestId" responseJson="subRequestId" />
+        <field ref="BENEFICIARY_NAME" response="O" request="O" requestJson="accountBenName" responseJson="accountBenName" />
+        <field ref="BENEFICIARY_BANK_CODE" response="M" request="M" requestJson="benBankCode" responseJson="benBankCode" />
+    </isomsg>
+
+    <!-- 648002 -->
+    <isomsg processCode="648002">
+        <field ref="PAYMENT_TYPE" request="M" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="M" response="O" requestJson="creditAccountNumber" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="M" requestJson="amount" responseJson="amount" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="OTP" request="M" response="O" requestJson="otp" responseJson="otp" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="M" request="M" requestJson="transContent" responseJson="transContent" />
+        <field ref="BENEFICIARY_NAME" response="O" request="O" requestJson="accountBenName" responseJson="accountBenName" />
+    </isomsg>
+
+    <!-- 648000 -->
+    <isomsg processCode="648000">
+        <field ref="PAYMENT_TYPE" request="M" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="M" response="O" requestJson="creditAccountNumber" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="M" requestJson="amount" responseJson="amount" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="OTP" request="M" response="O" requestJson="otp" responseJson="otp" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="M" request="M" requestJson="transContent" responseJson="transContent" />
+        <field ref="BENEFICIARY_NAME" response="O" request="O" requestJson="accountBenName" responseJson="accountBenName" />
+    </isomsg>
+
+    <!-- 649000_LIXI -->
+    <isomsg processCode="649000_LIXI">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="SERVICE_INDICATOR" request="O" response="O" requestJson="serviceIndicator" responseJson="serviceIndicator" />
+        <field ref="ACCOUNT_NO" request="M" response="O" requestJson="accountNumber" responseJson="accountNumber" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="M" response="O" requestJson="creditAccountNumber" responseJson="creditAccountNumber" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContentCore" responseJson="transContentCore" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="BENEFICIARY_MSISDN" response="O" request="O" requestJson="benMsisdn" responseJson="benMsisdn" />
+    </isomsg>
+
+    <!-- 649001_LIXI -->
+    <isomsg processCode="649001_LIXI">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="SERVICE_INDICATOR" request="O" response="O" requestJson="serviceIndicator" responseJson="serviceIndicator" />
+        <field ref="ACCOUNT_NO" request="M" response="O" requestJson="accountNumber" responseJson="accountNumber" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="M" response="O" requestJson="creditAccountNumber" responseJson="creditAccountNumber" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContentCore" responseJson="transContentCore" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="PAYMENT_TYPE" response="M" request="M" requestJson="bankBranchName" responseJson="bankBranchName" />
+        <field ref="BENEFICIARY_MSISDN" response="O" request="O" requestJson="benMsisdn" responseJson="benMsisdn" />
+    </isomsg>
+
+    <!-- 002800 Cong DATA -->
+    <isomsg processCode="002800">
+        <field ref="CUSTOMER_CODE_VT" response="O" request="O" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="ADDITION_DATA" response="O" request="O" requestJson="miniStatementData" responseJson="miniStatementData" />
+        <field ref="VIETTEL_BANK_CODE" response="O" request="O" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="SERVICE_INDICATOR" response="O" request="O" requestJson="serviceIndicator" responseJson="serviceIndicator" />
+        <field ref="BILLING_CODE" response="O" request="O" requestJson="billingCode" responseJson="billingCode" />
+    </isomsg>
+
+
+    <!-- 002700 Cong SMS -->
+    <isomsg processCode="002700">
+        <field ref="VIETTEL_BANK_CODE" response="O" request="O" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="CUSTOMER_CODE_VT" response="O" request="O" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="ADDITION_DATA" response="O" request="O" requestJson="miniStatementData" responseJson="miniStatementData" />
+        <field ref="VIETTEL_BANK_CODE" response="O" request="O" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="SERVICE_INDICATOR" response="O" request="O" requestJson="serviceIndicator" responseJson="serviceIndicator" />
+        <field ref="BILLING_CODE" response="O" request="O" requestJson="billingCode" responseJson="billingCode" />
+        <field ref="TID_NUMBER" response="O" request="O" requestJson="tidNumber" responseJson="tidNumber" />
+    </isomsg>
+
+    <!-- cuoc vien thong -->
+    <isomsg processCode="000500_PAY2">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+        <field ref="TELCO_CODE" request="M" requestJson="clientId" />
+        <field ref="SERVICE_INDICATOR" request="M" response="O" requestJson="serviceIndicator" />
+        <field ref="MSISDN" request="M" response="O" requestJson="msisdn" />
+        <field ref="TRANSACTION_TYPE" request="M" response="O" requestJson="transType" />
+        <field ref="CUSTOMER_CODE_VT" request="M" response="M" requestJson="customerCodeVT" responseJson="customerCodeVT" />
+        <field ref="REMAINING_PAYMENT" response="M" responseJson="remainingPayment" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+    </isomsg>
+
+    <isomsg processCode="610000_PAY2">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TELCO_CODE" request="M" requestJson="clientId" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="OTP" request="M" requestJson="otp" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="TRANSACTION_TYPE" request="O" response="O" requestJson="transType" />
+        <field ref="DISCOUNT_PERCENT" request="O" response="O" requestJson="discountPercent" />
+        <field ref="DISCOUNT" request="O" response="O" requestJson="discountAmount" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" responseJson="transContent" />
+        <field ref="CUSTOMER_CODE_VT" request="O" response="O" requestJson="customerCodeVT" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="SERVICE_INDICATOR" request="M" response="O" requestJson="serviceIndicator" />
+        <field ref="PAYMENT_TYPE" request="M" response="O" requestJson="corePaymentType" />
+        <field ref="INTEREST_TYPE" request="M" response="O" requestJson="interestType" />
+        <field ref="INTEREST_AMOUNT" request="M" response="O" requestJson="interestAmount" />
+        <!-- them token thanh toan-->
+        <field ref="MONEY_SOURCE_BANK_CODE" request="O" response="O" requestJson="moneySourceBankCode" />
+        <field ref="AGENT_CODE" request="O" response="O" requestJson="agentCode" />
+        <field ref="DISCOUNT_BANK" request="O" response="O" requestJson="discountBank" responseJson="discountBank" />
+        <field ref="VT_SHOP_NAME" request="O" response="O" requestJson="shopName" />
+        <field ref="ACCOUNT_NO" request="O" response="O" requestJson="accountNo" />
+        <field ref="SERVICE_CODE" request="O" response="O" requestJson="serviceCode" />
+        <field ref="CUSTOMER_CODE" request="O" response="O" requestJson="customerCodeMb" />
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="signatureUrl" />
+        <field ref="CUSTOMER_SIGNATURE" request="O" response="O" requestJson="customerSignature" />
+        <field ref="VENUE_ID" request="O" response="O" requestJson="srcRequestId" />
+        <field ref="IDENTITY_NO" request="O" response="O" requestJson="idNumber" />
+        <field ref="CARD_STATUS" request="O" response="O" requestJson="statusBenMMEgate" />
+        <field ref="REMAINING_PAYMENT" request="O" response="O" requestJson="excessAmount" />
+        <field ref="ATM_AMOUNT_CHECK" request="O" response="O" requestJson="debitAmountTelco" />
+        <field ref="CREDIT_AMOUNT" request="O" response="O" requestJson="finalAmountEgate" />
+        <field ref="INTEREST_PERCENT" request="M" response="O" requestJson="orgDiscountPercent" />
+    </isomsg>
+
+    <isomsg processCode="210000">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TELCO_CODE" request="M" requestJson="clientId" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="OTP" request="M" requestJson="otp" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="TRANSACTION_TYPE" request="O" response="O" requestJson="transType" />
+        <field ref="DISCOUNT_PERCENT" request="O" response="O" requestJson="discountPercent" />
+        <field ref="DISCOUNT" request="O" response="O" requestJson="discountAmount" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" responseJson="transContent" />
+        <field ref="CUSTOMER_CODE_VT" request="O" response="O" requestJson="customerCodeVT" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="SERVICE_INDICATOR" request="M" response="O" requestJson="serviceIndicator" />
+        <field ref="PAYMENT_TYPE" request="M" response="O" requestJson="corePaymentType" />
+        <field ref="INTEREST_TYPE" request="M" response="O" requestJson="interestType" />
+        <field ref="INTEREST_AMOUNT" request="M" response="O" requestJson="interestAmount" />
+        <field ref="INTEREST_PERCENT" request="M" response="O" requestJson="orgDiscountPercent" />
+
+    </isomsg>
+
+    <isomsg processCode="600000_PAY2">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TELCO_CODE" request="M" requestJson="clientId" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="SERVICE_INDICATOR" request="M" response="O" requestJson="serviceIndicator" responseJson="serviceIndicator" />
+        <field ref="MSISDN" request="M" response="O" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="OTP" response="M" responseJson="otp" />
+        <field ref="TRANSACTION_TYPE" request="M" response="O" requestJson="transType" responseJson="transType" />
+        <field ref="CUSTOMER_CODE_VT" request="M" response="O" requestJson="customerCodeVT" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="RESPONSE_CODE" response="M" responseJson="errorCode" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" responseJson="transContent" />
+        <field ref="BENEFICIARY_BANK_CODE" request="O" response="O" requestJson="benBankCode" responseJson="benBankCode" />
+        <field ref="BANK_BRANCH" request="O" response="O" requestJson="bankBranch" responseJson="bankBranch" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" response="O" requestJson="creditAccountNumber" responseJson="creditAccountNumber" />
+        <field ref="CUSTOMER_TYPE" request="O" response="O" requestJson="customerType" responseJson="customerType" />
+    </isomsg>
+
+    <isomsg processCode="311000">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="ACCOUNT_NO" request="O" response="O" requestJson="accountNo" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCode" />
+    </isomsg>
+
+    <isomsg processCode="711000">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="ACCOUNT_NO" request="O" response="O" requestJson="accountNo" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCode" />
+    </isomsg>
+
+    <!-- 040003 Thuc hien goi sang egate 17/4-->
+    <isomsg processCode="040003">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="processCode" responseJson="processCode" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="ACCOUNT_NO" request="M" response="O" requestJson="sourceAccNo" responseJson="sourceAccNo" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="CARD_NUMBER" request="M" response="O" requestJson="sourceAccNo" responseJson="sourceAccNo" />
+        <field ref="REQUEST_ID" request="M" response="O" requestJson="subRequestId" responseJson="subRequestId" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+    </isomsg>
+
+    <!-- 631000 ban tin resetPin-->
+    <isomsg processCode="631000">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="processCode" responseJson="processCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="ACCOUNT_NO" request="M" response="O" requestJson="sourceAccNo" responseJson="sourceAccNo" />
+        <field ref="IDENTITY_NO" request="M" response="O" requestJson="idNumber" responseJson="idNumber" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" responseJson="pin" />
+        <field ref="REQUEST_ID" request="M" response="O" requestJson="requestId" responseJson="requestId" />
+    </isomsg>
+
+    <!-- 630000 ban tin mo khoa trang thai tai khoan cusmobile_status = 6-->
+    <isomsg processCode="630000">
+        <field ref="REQUEST_ID" request="M" response="O" requestJson="requestId" responseJson="requestId" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="processCode" responseJson="processCode" />
+        <field ref="SHOP_CODE" request="M" response="O" requestJson="bankShopCode" responseJson="bankShopCode" />
+        <field ref="STAFF_CODE" request="M" response="O" requestJson="viettel_staff_code" responseJson="viettel_staff_code" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="IDENTITY_NO" request="M" response="O" requestJson="idNumber" responseJson="idNumber" />
+        <field ref="VIETTEL_BANK_CODE" request="M" response="O" requestJson="bankCode" responseJson="bankCode" />
+    </isomsg>
+
+    <!-- os_hungnt thanh toan POS001 & QR0001 start -->
+    <!-- Chuyen tien NCCDV -->
+    <isomsg processCode="666001">
+        <field ref="BILLING_CODE" request="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" requestJson="realServiceCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="PASSWORD" request="O" requestJson="pin" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" responseJson="benName" />
+        <field ref="ORINGINAL_REQUEST_ID" request="O" requestJson="srcRequestId" response="O" responseJson="srcRequestId" />
+        <field ref="BENEFICIARY_BANK_CODE" request="O" response="O" requestJson="bankCode" />
+        <field ref="OTP" request="M" requestJson="otp" />
+        <field ref="TRANSACTION_TYPE" request="O" response="O" requestJson="transactionType" />
+        <field ref="SERVICE_INDICATOR" request="O" requestJson="serviceIndicator" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" response="O" requestJson="creditAccountNumber" responseJson="creditAccountNumber" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="REF_NO" request="O" response="O" requestJson="referenceCode" responseJson="referenceCode" />
+        <field ref="TELCO_CODE" request="O" response="O" requestJson="telcoCode" responseJson="telcoCode" />
+        <field ref="FEE_SOURCE" request="O" response="O" requestJson="feeSource" responseJson="feeSource" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="CURRENCY_CODE" response="O" responseJson="currCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="O" response="O" requestJson="moneySourceBankCode" />
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="tidNumber" responseJson="tidNumber" />
+        <field ref="CUSTOMER_CODE" request="O" response="O" requestJson="customerCodeMb" responseJson="customerCodeMb" />
+        <field ref="DISCOUNT" request="O" response="O" requestJson="discountAmount" responseJson="discountAmount" />
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="signatureUrl" responseJson="signatureUrl" />
+        <field ref="CUSTOMER_SIGNATURE" request="O" response="O" requestJson="customerSignature" responseJson="customerSignature" />
+        <field ref="VENUE_ID" request="O" response="O" requestJson="signRequestId" responseJson="signRequestId" />
+        <field ref="INTEREST_TYPE" request="O" response="O" requestJson="interestType" responseJson="interestType" />
+        <field ref="DISCOUNT_BANK" request="O" response="O" requestJson="discountAmount" responseJson="discountAmount" />
+        <field ref="VT_SHOP_NAME" request="O" response="O" requestJson="service_name" responseJson="service_name" />
+        <field ref="CHANNEL_TYPE_ID" request="O" response="O" requestJson="userPayFrom" responseJson="userPayFrom" />
+        <field ref="REMAINING_PAYMENT" request="O" response="O" requestJson="revertOrderId" responseJson="revertOrderId" />
+        <field ref="ACCOUNT_NO" request="O" response="O" requestJson="accountNumber" responseJson="accountNumber" />
+    </isomsg>
+    <!-- Get OTP, send to merchant -->
+    <isomsg processCode="MGW_300010">
+        <field ref="MSISDN" request="O" requestJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="O" requestJson="amount" response="O" responseJson="merchantAmount" />
+        <field ref="SERVICE_CODE" request="O" requestJson="serviceCode" />
+        <field ref="TELCO_CODE" request="O" requestJson="telcoCode" />
+        <field ref="BILLING_CODE" request="O" requestJson="billingCode" />
+        <field ref="TID_NUMBER" request="O" requestJson="tidNumber" />
+        <field ref="TRANSACTION_TYPE" request="O" requestJson="transactionType" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" requestJson="transContent" />
+        <field ref="STATUS" request="O" requestJson="status" />
+        <field ref="STAFF_CODE" request="O" requestJson="merchantStaff" />
+        <field ref="ADDITION_DATA" request="O" requestJson="other_info" response="O" responseJson="otherInfo" />
+        <field ref="TRANSACTION_FEE" request="O" requestJson="transFeeMerchant" />
+        <field ref="ORINGINAL_REQUEST_ID" request="O" requestJson="order_id" />
+        <field ref="ATM_LOCATION" request="O" requestJson="process_type" />
+    </isomsg>
+    <!-- Payment=2, send to merchant -->
+    <isomsg processCode="MGW_300021">
+        <field ref="RESPONSE_CODE" request="O" requestJson="errorCode" />
+        <field ref="MSISDN" request="O" requestJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="O" requestJson="amount" />
+        <field ref="SERVICE_CODE" request="O" requestJson="serviceCode" />
+        <field ref="TELCO_CODE" request="O" requestJson="telcoCode" />
+        <field ref="BILLING_CODE" request="O" requestJson="billingCode" />
+        <field ref="TID_NUMBER" request="O" requestJson="tidNumber" />
+        <field ref="TRANSACTION_TYPE" request="O" requestJson="transactionType" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" requestJson="transContent" />
+        <field ref="STATUS" request="O" requestJson="status" />
+        <field ref="STAFF_CODE" request="O" requestJson="merchantStaff" />
+        <field ref="ADDITION_DATA" request="O" requestJson="other_info" />
+        <field ref="TRANSACTION_FEE" request="O" requestJson="transFeeMerchant" />
+        <field ref="ORINGINAL_REQUEST_ID" request="O" requestJson="order_id" />
+        <field ref="ATM_LOCATION" request="O" requestJson="process_type" />
+        <field ref="VT_SHOP_NAME" request="O" requestJson="pay_from" />
+        <field ref="CARD_LEVEL" request="O" requestJson="cardLevel" />
+    </isomsg>
+    <!--Query send to merchant-->
+    <isomsg processCode="MGW_300000">
+        <field ref="MTI" request="M" response="M" requestJson="requestMti" responseJson="responseMti" defaultRequestValue="0500" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="merchantProcessCode" responseJson="merchantProcessCode" defaultRequestValue="300000" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="serviceCode" />
+        <field ref="TELCO_CODE" request="O" requestJson="telcoCode" />
+        <field ref="MSISDN" request="O" requestJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="ADDITION_DATA" request="O" response="O" requestJson="miniStatementData" responseJson="miniStatementData" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" responseJson="cust_name" />
+        <field ref="ORINGINAL_REQUEST_ID" request="O" requestJson="order_id" />
+        <field ref="TRANSACTION_FEE" request="O" requestJson="transFeeMerchant" />
+        <field ref="STATUS" request="O" requestJson="status" />
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="tidNumber" responseJson="tidNumber" />
+    </isomsg>
+    <!-- Payment=3, send to merchant -->
+    <isomsg processCode="MGW_300009">
+        <field ref="RESPONSE_CODE" request="O" requestJson="errorCode" />
+        <field ref="MSISDN" request="O" requestJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="O" requestJson="amount" />
+        <field ref="SERVICE_CODE" request="O" requestJson="serviceCode" />
+        <field ref="TELCO_CODE" request="O" requestJson="telcoCode" />
+        <field ref="BILLING_CODE" request="O" requestJson="billingCode" />
+        <field ref="TID_NUMBER" request="O" requestJson="tidNumber" />
+        <field ref="TRANSACTION_TYPE" request="O" requestJson="transactionType" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" requestJson="transContent" />
+        <field ref="STATUS" request="O" requestJson="status" />
+        <field ref="STAFF_CODE" request="O" requestJson="merchantStaff" />
+        <field ref="ADDITION_DATA" request="O" requestJson="other_info" />
+        <field ref="TRANSACTION_FEE" request="O" requestJson="transFeeMerchant" />
+        <field ref="ORINGINAL_REQUEST_ID" request="O" requestJson="order_id" />
+        <field ref="ATM_LOCATION" request="O" requestJson="process_type" />
+        <field ref="VT_SHOP_NAME" request="O" requestJson="pay_from" />
+        <field ref="CARD_LEVEL" request="O" requestJson="cardLevel" />
+    </isomsg>
+    <!-- os_hungnt: hoan huy ViettelPay/BankPlus -->
+    <isomsg processCode="MGW_300011">
+        <field ref="MTI" request="M" response="M" requestJson="requestMti" responseJson="responseMti" defaultRequestValue="0500" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="merchantProcessCode" responseJson="merchantProcessCode" defaultRequestValue="300011" />
+        <field ref="TRANSACTION_AMOUNT" request="O" requestJson="amount" />
+        <field ref="SERVICE_CODE" request="O" requestJson="serviceCode" />
+        <field ref="TELCO_CODE" request="O" requestJson="telcoCode" />
+        <field ref="BILLING_CODE" request="O" requestJson="billingCode" />
+        <field ref="TID_NUMBER" request="O" requestJson="tidNumber" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" requestJson="transContent" />
+        <field ref="ORINGINAL_REQUEST_ID" request="O" requestJson="originalRequestId" />
+        <field ref="MSISDN" request="O" requestJson="msisdn" />
+    </isomsg>
+    <!-- os_hungnt thanh toan POS001 & QR0001 end -->
+
+    <!-- os_hungnt lay ten chu tai khoan bank ngoai MB 400200
+        serviceIndicator = 400201 => lay theo stk
+        serviceIndicator = 400202 => lay theo so the
+    -->
+    <isomsg processCode="400200">
+        <field ref="TELCO_CODE" request="O" requestJson="telcoCode" />
+        <field ref="SHOP_CODE" request="O" requestJson="shopCode" />
+        <field ref="SERVICE_INDICATOR" request="M" requestJson="serviceIndicator" />
+        <field ref="TRANSACTION_TYPE" request="O" requestJson="transactionType" />
+        <field ref="BP_ACCOUNT_TYPE" request="O" requestJson="bpAccountType" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" response="O" requestJson="creditAccountNumber" responseJson="creditAccountNumber" />
+        <field ref="BENEFICIARY_BANK_CODE" request="O" response="O" requestJson="benBankCode" responseJson="benBankCode" />
+        <field ref="BENEFICIARY_NAME" response="O" responseJson="accountBenName" />
+    </isomsg>
+    <!-- os_hungnt lay ten chu tai khoan MB -->
+    <isomsg processCode="051110">
+        <field ref="TELCO_CODE" request="O" requestJson="telcoCode" />
+        <field ref="SHOP_CODE" request="O" requestJson="shopCode" />
+        <field ref="TRANSACTION_TYPE" request="O" requestJson="transactionType" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" response="O" requestJson="creditAccountNumber" responseJson="creditAccountNumber" />
+        <field ref="MONEY_RECEIVER_BANK_CODE" request="O" response="O" requestJson="benBankCode" responseJson="benBankCode" />
+        <field ref="BENEFICIARY_NAME" response="O" responseJson="accountBenName" />
+    </isomsg>
+    <!-- os_hungnt lay ten chu tai khoan end -->
+
+
+    <!-- Thanh toan VTT  BEGIN-->
+    <!-- Check Pin VTT-->
+    <isomsg processCode="302000_PAYMENT">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" responseJson="pin" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="REQUEST_ID" request="M" response="O" requestJson="subRequestId" responseJson="subRequestId" />
+    </isomsg>
+
+    <isomsg processCode="720001">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="cardPin" responseJson="cardPin" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="REQUEST_ID" request="M" response="O" requestJson="requestId" responseJson="requestId" />
+        <field ref="SERVICE_CODE" request="M" response="O" requestJson="serviceCodeRecharge" responseJson="serviceCodeRecharge" />
+        <field ref="SERVICE_INDICATOR" request="M" response="O" requestJson="serviceIndicator" responseJson="serviceIndicator" />
+        <field ref="STATUS" request="M" response="O" requestJson="status" responseJson="status" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="ADDITION_DATA" request="M" response="O" requestJson="miniStatementData" responseJson="miniStatementData" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="cardPin" responseJson="cardPin" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="M" response="O" requestJson="transContent" responseJson="transContent" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="vttAmount" responseJson="vttAmount" />
+        <field ref="OTP" request="O" response="O" requestJson="otp" responseJson="otp" />
+    </isomsg>
+
+    <isomsg processCode="720000">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="cardPin" responseJson="cardPin" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="REQUEST_ID" request="M" response="O" requestJson="requestId" responseJson="requestId" />
+        <field ref="SERVICE_CODE" request="M" response="O" requestJson="serviceCodeRecharge" responseJson="serviceCodeRecharge" />
+        <field ref="SERVICE_INDICATOR" request="M" response="O" requestJson="serviceIndicator" responseJson="serviceIndicator" />
+        <field ref="STATUS" request="M" response="O" requestJson="status" responseJson="status" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="ADDITION_DATA" request="M" response="O" requestJson="miniStatementData" responseJson="miniStatementData" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="cardPin" responseJson="cardPin" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="M" response="O" requestJson="transContent" responseJson="transContent" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="vttAmount" responseJson="vttAmount" />
+        <field ref="OTP" request="O" response="O" requestJson="otp" responseJson="otp" />
+        <field ref="EMAIL_ADDRESS" request="O" response="O" requestJson="emailAddress" responseJson="emailAddress" />
+        <field ref="BENEFICIARY_MSISDN" request="O" response="O" requestJson="mobileNumberRecv" responseJson="mobileNumberRecv" />
+        <field ref="REQUEST_ID" request="O" response="O" requestJson="rechargeRequestId" responseJson="rechargeRequestId" />
+        <field ref="ORINGINAL_REQUEST_ID" request="M" response="O" requestJson="srcRequestId" />
+        <field ref="ACCOUNT_NO" request="M" response="O" requestJson="accountNumber" />
+    </isomsg>
+
+    <isomsg processCode="300001_VTT">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="coreProcessCode" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="realServiceCode" />
+        <field ref="MSISDN" request="M" requestJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="M" requestJson="amount" />
+        <field ref="ADDITION_DATA" response="O" responseJson="miniStatementData" />
+        <field ref="CARD_NUMBER" response="O" responseJson="cardNumber" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" responseJson="benName" />
+        <field ref="ORINGINAL_REQUEST_ID" request="O" requestJson="srcRequestId" />
+        <field ref="TID_NUMBER" request="M" response="O" requestJson="referenceCode" />
+        <field ref="VT_SHOP_NAME" request="O" requestJson="customer" />
+        <field ref="DISCOUNT" request="O" requestJson="discountAmount" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" requestJson="transContent" />
+        <field ref="CUSTOMER_NAME" request="O" response="O" requestJson="customerName" />
+        <field ref="FEE_SOURCE" request="O" requestJson="feeSource" />
+        <field ref="OTP" request="M" requestJson="otp" />
+        <field ref="TRANSACTION_FEE" request="O" requestJson="vttFee" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" requestJson="creditAccountNumber" />
+        <field ref="SERVICE_INDICATOR" request="O" requestJson="serviceIndicator" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="ACCOUNT_NO" request="M" response="O" requestJson="accountNumber" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCode" />
+        <field ref="ATM_LOCATION" request="M" response="O" requestJson="feeString" />
+        <field ref="CUSTOMER_CODE" request="O" response="O" requestJson="customerCodeMb" responseJson="customerCodeMb" /> <!-- Part 1 of token -->
+        <field ref="CUSTOMER_SIGNATURE" request="O" response="O" requestJson="customerSignature" responseJson="customerSignature" /> <!-- Part 2 of token -->
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="signatureUrl" responseJson="signatureUrl" /> <!-- Part 3 of token -->
+        <field ref="VENUE_ID" request="O" response="O" requestJson="srcRequestId" responseJson="srcRequestId" />
+    </isomsg>
+
+    <isomsg processCode="300002_VTT">
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="coreProcessCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="realServiceCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="ADDITION_DATA" response="O" responseJson="miniStatementData" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" responseJson="benName" />
+        <field ref="ORINGINAL_REQUEST_ID" request="O" requestJson="srcRequestId" response="O" responseJson="srcRequestId" />
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="referenceCode" responseJson="referenceCode" />
+        <field ref="CUSTOMER_NAME" request="O" response="O" requestJson="customerName" />
+        <field ref="AGENT_CODE" request="O" response="O" requestJson="agentCode" />
+        <field ref="SERVICE_INDICATOR" request="O" requestJson="serviceIndicator" />
+    </isomsg>
+
+    <!-- Thanh toan VTT  END-->
+
+
+    <isomsg processCode="710000">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="CUSTOMER_CODE_VT" response="M" request="M" requestJson="customerCodeVT" responseJson="customerCodeVT" />
+
+        <field ref="DISCOUNT" request="O" response="O" requestJson="discountAmount" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="M" requestJson="amount" responseJson="amount" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="ADDITION_DATA" request="M" response="M" requestJson="miniStatementData" responseJson="miniStatementData" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="SERVICE_INDICATOR" request="M" response="O" requestJson="serviceIndicator" />
+        <field ref="DISCOUNT" request="O" requestJson="discountAmount" />
+    </isomsg>
+    <!-- The vat ly -->
+    <!-- kich hoat -->
+    <isomsg processCode="051018">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" response="O" requestJson="accNo" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <!-- so the vat ly -->
+        <field ref="ACCOUNT_NO" response="M" request="M" requestJson="accountNumber" responseJson="accountNumber" />
+    </isomsg>
+    <!-- Truy van thong tin-->
+    <isomsg processCode="051026">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="ACCOUNT_TYPE" response="O" request="M" requestJson="typeStatus" responseJson="typeStatus" />
+        <!-- so the vat ly -->
+        <field ref="CARD_NUMBER" response="M" request="M" requestJson="accountNumber" responseJson="accountNumber" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="NAME_ON_CARD" response="M" request="O" requestJson="cardStatus" responseJson="cardStatus" />
+        <field ref="CARD_STATUS" response="M" request="O" requestJson="cardInternetStatus" responseJson="cardInternetStatus" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="M" request="O" requestJson="errorDesc" responseJson="errorDesc" />
+    </isomsg>
+    <!-- Cap nhat mo khoa ..-->
+    <isomsg processCode="051029">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="ACCOUNT_TYPE" response="O" request="M" requestJson="typeStatus" responseJson="typeStatus" />
+        <!-- so the vat ly -->
+        <field ref="CARD_NUMBER" response="M" request="M" requestJson="accountNumber" responseJson="accountNumber" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="CARD_STATUS" response="M" request="O" requestJson="cardStatus" responseJson="cardStatus" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="M" request="O" requestJson="errorDesc" responseJson="errorDesc" />
+    </isomsg>
+
+    <isomsg processCode="051015">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" response="O" requestJson="accNo" />
+        <field ref="SHOP_CODE" request="M" response="O" requestJson="shopCode" responseJson="shopCode" />
+        <field ref="STAFF_CODE" request="M" response="O" requestJson="staffCode" responseJson="staffCode" />
+        <field ref="PROVINCE_CODE" request="O" response="O" requestJson="provinceCode" responseJson="provinceCode" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="REGISTRATION_TYPE" response="M" request="M" requestJson="bankBranch" responseJson="bankBranch" />
+        <!-- so the vat ly -->
+        <field ref="ACCOUNT_NO" response="M" request="M" requestJson="accountNumber" responseJson="accountNumber" />
+    </isomsg>
+    <isomsg processCode="051016">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" response="O" requestJson="accNo" />
+        <field ref="SHOP_CODE" request="M" response="O" requestJson="shopCode" responseJson="shopCode" />
+        <field ref="STAFF_CODE" request="M" response="O" requestJson="staffCode" responseJson="staffCode" />
+        <field ref="PROVINCE_CODE" request="O" response="O" requestJson="provinceCode" responseJson="provinceCode" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="REGISTRATION_TYPE" response="M" request="M" requestJson="bankBranch" responseJson="bankBranch" />
+        <!-- so the vat ly -->
+        <field ref="ACCOUNT_NO" response="M" request="M" requestJson="accountNumber" responseJson="accountNumber" />
+    </isomsg>
+    <!-- Bao viet bank Start-->
+    <!-- yeu cau lien ket vi -->
+    <isomsg processCode="BVB001">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="ACCOUNT_NO" response="M" request="M" requestJson="accountNumber" responseJson="accountNumber" />
+        <field ref="ACCOUNT_NAME" request="M" response="O" requestJson="accountName" responseJson="accountName" />
+        <field ref="ADDITIONAL_DATA" request="M" response="O" requestJson="accountType" responseJson="accountType" />
+        <field ref="BANK_TRANS_ID" request="M" response="O" requestJson="bankTransId" responseJson="bankTransId" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" response="O" requestJson="accNo" responseJson="accNo" />
+    </isomsg>
+
+    <!-- verifyOTP -->
+    <isomsg processCode="BVB002">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="OTP" request="M" response="M" requestJson="otp" responseJson="otp" />
+        <field ref="BANK_TRANS_ID" request="M" response="O" requestJson="bankTransId" responseJson="bankTransId" />
+        <field ref="BANK_BRANCH" request="M" response="O" requestJson="verifyBankTransId" responseJson="verifyBankTransId" />
+        <field ref="CARD_CVV" request="M" response="O" requestJson="token" responseJson="token" />
+        <field ref="ADDITION_DATA" request="M" response="O" requestJson="bankTransRef" responseJson="bankTransRef" />
+        <field ref="ACCOUNT_NO" response="M" request="M" requestJson="accNo" responseJson="accNo" />
+        <field ref="ACCOUNT_NAME" request="M" response="O" requestJson="customerName" responseJson="customerName" />
+        <field ref="TELCO_CODE" request="M" response="O" requestJson="otpTime" responseJson="otpTime" />
+    </isomsg>
+
+    <!-- Yeu cau bo lien ket vi -->
+    <isomsg processCode="BVB003">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="BANK_TRANS_ID" request="M" response="O" requestJson="bankTransId" responseJson="bankTransId" />
+        <field ref="CARD_CVV" request="M" response="O" requestJson="token" responseJson="token" />
+        <field ref="ACCOUNT_NO" response="M" request="M" requestJson="accNo" responseJson="accNo" />
+        <field ref="ACCOUNT_NAME" request="M" response="O" requestJson="customerName" responseJson="customerName" />
+    </isomsg>
+
+    <!-- Nap tien vao vi -->
+    <isomsg processCode="BVB004">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="BANK_TRANS_ID" request="M" response="O" requestJson="bankTransId" responseJson="bankTransId" />
+        <field ref="CARD_CVV" request="M" response="O" requestJson="token" responseJson="token" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="CURRENCY_CODE" request="M" response="O" requestJson="currencyCode" responseJson="currencyCode" />
+        <field ref="CONTENT_DESCRIPTION_TRANSACTION" request="M" response="O" requestJson="contentDescService" responseJson="contentDescService" />
+        <field ref="ADDITION_DATA" request="M" response="O" requestJson="bankTransRef" responseJson="bankTransRef" />
+        <field ref="ACCOUNT_NO" response="M" request="M" requestJson="accNo" responseJson="accNo" />
+        <field ref="ACCOUNT_NAME" request="M" response="O" requestJson="customerName" responseJson="customerName" />
+    </isomsg>
+
+    <!-- Rut tien -->
+    <isomsg processCode="BVB005">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="BANK_TRANS_ID" request="M" response="O" requestJson="bankTransId" responseJson="bankTransId" />
+        <field ref="CARD_CVV" request="M" response="O" requestJson="token" responseJson="token" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="CURRENCY_CODE" request="M" response="O" requestJson="currencyCode" responseJson="currencyCode" />
+        <field ref="CONTENT_DESCRIPTION_TRANSACTION" request="M" response="O" requestJson="contentDescService" responseJson="contentDescService" />
+        <field ref="ADDITION_DATA" request="M" response="O" requestJson="bankTransRef" responseJson="bankTransRef" />
+        <field ref="ACCOUNT_NO" response="M" request="M" requestJson="accNo" responseJson="accNo" />
+        <field ref="ACCOUNT_NAME" request="M" response="O" requestJson="customerName" responseJson="customerName" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" response="O" requestJson="creditAccountNumber" responseJson="creditAccountNumber" />
+    </isomsg>
+    <!-- Bao viet bank End-->
+    <!-- dang ky thanh toan tu dong-->
+    <isomsg processCode="673000">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="SERVICE_CODE" response="M" request="M" requestJson="serviceCode" responseJson="serviceCode" />
+        <field ref="SERVICE_INDICATOR" request="M" response="O" requestJson="serviceIndicator" responseJson="serviceIndicator" />
+        <field ref="BILLING_CODE" request="O" response="O" requestJson="billingCode" responseJson="billingCode" />
+        <field ref="CUSTOMER_CODE_VT" request="O" response="O" requestJson="customerCodeVT" responseJson="customerCodeVT" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="VIETTEL_BANK_CODE" request="M" response="O" requestJson="bankCode" responseJson="bankCode" />
+    </isomsg>
+
+    <!-- Huy dang ky thanh toan tu dong-->
+    <isomsg processCode="674000">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="SERVICE_CODE" response="M" request="M" requestJson="serviceCode" responseJson="serviceCode" />
+        <field ref="SERVICE_INDICATOR" request="M" response="O" requestJson="serviceIndicator" responseJson="serviceIndicator" />
+        <field ref="OTP" request="M" response="O" requestJson="otp" responseJson="otp" />
+        <field ref="BILLING_CODE" request="O" response="O" requestJson="billingCode" responseJson="billingCode" />
+        <field ref="CUSTOMER_CODE_VT" request="O" response="O" requestJson="customerCodeVT" responseJson="customerCodeVT" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="VIETTEL_BANK_CODE" request="M" response="O" requestJson="bankCode" responseJson="bankCode" />
+    </isomsg>
+    <!-- Sao ke tren app-->
+    <isomsg processCode="340001">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="INQUIRY_START_DATE" response="M" request="M" requestJson="startDate" responseJson="startDate" />
+        <field ref="INQUIRY_END_DATE" response="M" request="M" requestJson="endDate" responseJson="endDate" />
+        <field ref="TRANSACTION_FEE" response="M" request="M" requestJson="transFee" responseJson="transFee" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="VIETTEL_BANK_CODE" request="M" response="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="CUSTOMER_NAME" request="M" response="M" requestJson="customerName" />
+        <field ref="TRANSACTION_INQUIRY_TYPE" request="M" response="M" requestJson="typeStatus" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="M" response="M" requestJson="contactAddress" />
+        <field ref="EMAIL_ADDRESS" request="M" response="M" requestJson="emailAddress" />
+        <field ref="TID_NUMBER" request="M" response="M" requestJson="numberRecord" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCode" />
+    </isomsg>
+
+    <!--Truy van ten tai khoan ngan hang-->
+    <isomsg processCode="647001">
+        <field ref="MTI" request="M" response="M" requestJson="requestMti" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="processCode" responseJson="processCode" />
+        <field ref="MONEY_RECEIVER_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCodeRecv" />
+        <field ref="STATUS" request="O" response="O" requestJson="status" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="viettelBankCode" responseJson="viettelBankCode" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="M" response="O" requestJson="beneficiaryAccountNo" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="O" request="O" requestJson="transContent" responseJson="transContent" />
+        <field ref="BENEFICIARY_NAME" response="O" request="O" requestJson="beneficiaryName" responseJson="beneficiaryName" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="O" request="O" requestJson="contentDescService" responseJson="contentDescService" />
+        <field ref="SHOP_CODE" request="O" response="O" requestJson="bankShopCode" responseJson="bankShopCode" />
+        <field ref="STAFF_CODE" request="O" response="O" requestJson="viettel_staff_code" responseJson="viettel_staff_code" />
+        <field ref="BENEFICIARY_BANK_CODE" response="M" request="M" requestJson="beneficiaryBankCode" responseJson="beneficiaryBankCode" />
+        <field ref="ACCOUNT_NO" request="M" response="O" requestJson="accNumber" />
+    </isomsg>
+    <isomsg processCode="281002">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="VIETTEL_BANK_CODE" request="M" response="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="CARD_STATUS" request="M" response="M" requestJson="newStatusCodeCard" responseJson="newStatusCodeCard" />
+    </isomsg>
+
+    <!-- Khoa the masterCard-->
+    <isomsg processCode="281003">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="VIETTEL_BANK_CODE" request="M" response="M" requestJson="bankCode" responseJson="bankCode" />
+    </isomsg>
+
+    <!--Mo khoa the masterCard-->
+    <isomsg processCode="281013">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="VIETTEL_BANK_CODE" request="M" response="M" requestJson="bankCode" responseJson="bankCode" />
+    </isomsg>
+
+    <!--Truy van thong tin the masterCard-->
+    <isomsg processCode="281000">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="VIETTEL_BANK_CODE" request="M" response="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="ADDITION_DATA" request="M" response="O" requestJson="miniStatementData" responseJson="miniStatementData" />
+    </isomsg>
+
+    <!--Tao moi the masterCard-->
+    <isomsg processCode="281001">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="VIETTEL_BANK_CODE" request="M" response="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="CUSTOMER_NAME" request="M" response="M" requestJson="customerName" />
+        <field ref="CARD_NUMBER" request="M" response="O" requestJson="cardNumber" responseJson="cardNumber" />
+        <field ref="ADDITION_DATA" request="M" response="O" requestJson="miniStatementData" responseJson="miniStatementData" />
+        <field ref="CARD_ISSUE_DATE" request="M" response="O" requestJson="cardOpenDate" responseJson="cardOpenDate" />
+        <field ref="TRANSACTION_FEE" response="M" request="M" requestJson="fee" responseJson="fee" />
+    </isomsg>
+
+    <!--Thu phi dinh danh-->
+    <isomsg processCode="700002">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="VIETTEL_BANK_CODE" request="M" response="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="TRANSACTION_FEE" response="M" request="M" requestJson="fee" responseJson="fee" />
+        <field ref="SERVICE_INDICATOR" request="M" requestJson="serviceIndicator" />
+    </isomsg>
+
+    <isomsg processCode="311001">
+        <field ref="MTI" request="M" response="M" requestJson="requestMti" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="processCode" responseJson="processCode" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="ACCOUNT_NO" request="M" response="O" requestJson="accNumber" />
+        <field ref="BALANCE" response="M" responseJson="balance" />
+    </isomsg>
+
+    <!--Ban tin gui sang MB nang cap goi 1 len goi 2-->
+    <isomsg processCode="031100">
+        <field ref="MTI" request="M" requestJson="requestMti" defaultRequestValue="0200" />
+        <field ref="MB_RM_MAIN" request="M" response="M" requestJson="mbRmMain" responseJson="mbRmMain" defaultRequestValue="9999" />
+        <field ref="MB_RM_SUB" request="M" response="M" requestJson="mbRmSub" responseJson="mbRmSub" defaultRequestValue="1111" />
+        <field ref="SHOP_CODE" request="M" response="M" requestJson="bankShopCode" responseJson="bankShopCode" />
+        <field ref="STAFF_CODE" request="M" response="M" requestJson="viettel_staff_code" responseJson="viettel_staff_code" />
+
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="BIRTH_DAY" request="M" response="M" requestJson="birthday" responseJson="birthday" />
+        <field ref="AGENT_CODE" request="M" response="M" requestJson="agentCode" responseJson="agentCode" />
+        <field ref="CUSTOMER_NAME" request="M" response="M" requestJson="customerName" responseJson="customerName" />
+        <field ref="CUSTOMER_GENDER" request="M" response="M" requestJson="gender" responseJson="gender" />
+        <field ref="CUSTOMER_TYPE" request="M" response="M" requestJson="customerType" responseJson="customerType" />
+        <field ref="ID_TYPE" request="M" response="M" requestJson="idType" responseJson="idType" />
+        <field ref="CHANNEL_TYPE_ID" request="M" response="M" requestJson="channeltypeid" responseJson="channeltypeid" />
+        <field ref="VIETTEL_BANK_CODE" request="M" response="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="IDENTITY_NO" request="M" response="M" requestJson="idNumber" responseJson="idNumber" />
+        <field ref="EMAIL_ADDRESS" request="M" response="M" requestJson="emailAddress" responseJson="emailAddress" />
+        <field ref="DATE_ISSUSE" request="M" response="M" requestJson="issueDate" responseJson="issueDate" />
+        <field ref="CUSTOMER_ADDRESS" request="M" response="M" requestJson="custAddress" responseJson="custAddress" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+    </isomsg>
+
+    <!--Rut tien mat -->
+    <isomsg processCode="654000">
+        <field ref="MTI" request="M" requestJson="requestMti" defaultRequestValue="0200" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="M" requestJson="amount" responseJson="amount" />
+        <field ref="TELCO_CODE" request="M" response="M" requestJson="telcoCode" responseJson="telcoCode" />
+        <field ref="REF_NO" request="M" response="M" requestJson="referenceCode" responseJson="referenceCode" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="OTP" response="M" responseJson="otp" />
+        <field ref="TRANSACTION_TYPE" request="O" response="O" requestJson="transactionType" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" responseJson="benName" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" />
+        <field ref="SERVICE_INDICATOR" request="O" response="O" requestJson="serviceIndicator" />
+    </isomsg>
+
+    <!-- Dang ky vay MB-->
+    <isomsg processCode="381001">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="CUSTOMER_NAME" response="M" request="M" requestJson="customerName" responseJson="customerName" />
+        <field ref="BENEFICIARY_MSISDN" response="M" request="M" requestJson="benMsisdn" responseJson="benMsisdn" />
+        <field ref="IDENTITY_NO" response="M" request="M" requestJson="idNumber" responseJson="idNumber" />
+        <field ref="EMAIL_ADDRESS" request="M" response="O" requestJson="emailAddress" />
+        <field ref="CONTACT_ADDR" request="M" response="O" requestJson="contactAddress" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" />
+        <field ref="TRANSACTION_INQUIRY_TYPE" request="M" response="M" requestJson="typeStatus" />
+        <field ref="BENEFICIARY_NAME" request="M" response="O" requestJson="benName" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="VIETTEL_BANK_CODE" request="M" response="M" requestJson="bankCode" responseJson="bankCode" />
+    </isomsg>
+    <!-- Ban tin check status khach hang tai BVB -->
+    <isomsg processCode="800001">
+        <field ref="MSISDN" request="M" response="M" requestJson="providerCustId" />
+        <field ref="DEV_STAFF_NAME" request="M" response="M" requestJson="bankAccType" />
+        <field ref="ADDITION_DATA" request="M" response="M" requestJson="transReviewIn" />
+        <field ref="BENEFICIARY_NAME" response="O" responseJson="bankAccInfo" />
+        <field ref="ACCOUNT_NAME" response="O" responseJson="bankAccName" />
+        <field ref="BIRTH_DAY" response="O" responseJson="transReviewOut" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="M" responseJson="contentDescService" />
+
+        <field ref="PASSWORD" request="O" response="O" requestJson="pin" responseJson="pin" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="O" response="O" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+    </isomsg>
+
+    <!-- Ban tin xem danh sach tai khoan tiet kiem tai BVB -->
+    <isomsg processCode="800002">
+        <field ref="MSISDN" request="M" response="M" requestJson="providerCustId" responseJson="providerCustId" />
+        <field ref="BENEFICIARY_NAME" request="M" requestJson="bankAccInfo" />
+        <field ref="DEV_STAFF_NAME" request="M" response="M" requestJson="bankAccType" responseJson="bankAccType" />
+        <field ref="VT_SHOP_NAME" response="M" responseJson="bankAcc" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="M" responseJson="contentDescService" />
+
+        <field ref="ADDITION_DATA" request="O" response="O" requestJson="savingAccountList" responseJson="savingAccountList" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" response="O" requestJson="accNo" responseJson="accNo" />
+        <field ref="PASSWORD" request="O" response="O" requestJson="pin" responseJson="pin" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="O" response="O" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+    </isomsg>
+
+    <!-- Ban tin xem chi tiet tai khoan tiet kiem tai BVB -->
+    <isomsg processCode="800003">
+        <field ref="MSISDN" request="M" response="M" requestJson="providerCustId" responseJson="providerCustId" />
+        <field ref="VT_SHOP_NAME" request="M" response="M" requestJson="bankAcc" responseJson="bankAcc" />
+        <field ref="DEV_STAFF_NAME" response="M" responseJson="bankAccType" />
+        <field ref="CURRENCY_CODE" response="M" responseJson="currency" />
+        <field ref="ATM_AMOUNT_CHECK" response="M" responseJson="amount" />
+        <field ref="BENEFICIARY_NAME" response="M" responseJson="bankAccInfo" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="M" responseJson="contentDescService" />
+
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" response="O" requestJson="accNo" responseJson="accNo" />
+        <field ref="INQUIRY_END_DATE" response="O" responseJson="endDate" />
+        <field ref="INQUIRY_START_DATE" response="O" responseJson="startDate" />
+        <field ref="PASSWORD" request="O" response="O" requestJson="pin" responseJson="pin" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="O" response="O" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+    </isomsg>
+
+    <!-- Tra cuu lai suat tiet kiem BVB -->
+    <isomsg processCode="800004">
+        <field ref="MSISDN" request="M" requestJson="providerCustId" responseJson="providerCustId" />
+        <field ref="CURRENCY_CODE" request="M" requestJson="currency" responseJson="currency" />
+        <field ref="DEV_STAFF_NAME" request="M" requestJson="bankAccType" />
+        <field ref="BENEFICIARY_NAME" response="M" responseJson="bankAccInfo" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="M" responseJson="contentDescService" />
+
+        <field ref="MONEY_SOURCE_BANK_CODE" request="O" response="O" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+
+    </isomsg>
+
+    <!--Gui tiet kiem sang BVB -->
+    <isomsg processCode="800005">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="CUSTOMER_CODE" request="M" response="M" requestJson="token" />
+        <field ref="ACCOUNT_NAME" request="O" requestJson="bankAccountName" />
+        <field ref="ADDITION_DATA" request="O" requestJson="transReviewIn" />
+        <field ref="DEV_STAFF_NAME" request="M" response="M" requestJson="bankAccType" />
+        <field ref="CURRENCY_CODE" request="M" requestJson="currency" />
+        <field ref="ATM_AMOUNT_CHECK" request="M" requestJson="amount" />
+        <field ref="ACCOUNT_NO" request="M" requestJson="debitAccount" />
+        <field ref="OTP" request="O" response="M" requestJson="otp" responseJson="otp" />
+        <field ref="BILLING_CODE" request="O" requestJson="moneySource" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="M" requestJson="creditAccount" />
+        <field ref="BENEFICIARY_NAME" response="O" request="M" requestJson="bankAccInfo" responseJson="bankAccInfo" />
+        <field ref="BANK_TRANS_ID" response="M" responseJson="bankTransRef" />
+        <field ref="OTP" request="M" response="O" requestJson="otp" responseJson="otp" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="BENEFICIARY_BANK_CODE" request="O" response="O" requestJson="benBankCode" responseJson="benBankCode" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="M" responseJson="contentDescService" />
+
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="INTEREST_PERCENT" request="O" response="O" requestJson="interestRate" responseJson="interestRate" />
+        <field ref="INQUIRY_START_DATE" request="O" response="O" requestJson="startDate" responseJson="startDate" />
+        <field ref="INQUIRY_END_DATE" request="O" response="O" requestJson="endDate" responseJson="endDate" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="savingOpenFee" responseJson="savingOpenFee" />
+        <field ref="PASSWORD" request="O" response="O" requestJson="pin" responseJson="pin" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="O" response="O" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+    </isomsg>
+
+    <!--Gui them tien vao so tiet kiem MB -->
+    <isomsg processCode="800009">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TRANSACTION_FEE" request="M" response="O" requestJson="fee" responseJson="fee" />
+        <field ref="ACCOUNT_NO" request="M" response="O" requestJson="bankAcc" responseJson="bankAcc" />
+        <field ref="INQUIRY_START_DATE" request="O" response="O" requestJson="lastTransferDate" responseJson="lastTransferDate" />
+        <field ref="BALANCE" request="O" response="O" requestJson="amountBankAcc" responseJson="amountBankAcc" />
+        <field ref="PASSWORD" request="O" response="O" requestJson="pin" responseJson="pin" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="M" responseJson="contentDescService" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="O" response="O" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+    </isomsg>
+
+    <!--Tat toan tai khoan truoc han BVB -->
+    <isomsg processCode="800006">
+        <field ref="MSISDN" request="M" response="M" requestJson="providerCustId" responseJson="providerCustId" />
+        <field ref="VT_SHOP_NAME" request="M" response="M" requestJson="bankAcc" responseJson="bankAcc" />
+        <field ref="BENEFICIARY_NAME" response="O" responseJson="bankAccInfo" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="M" responseJson="contentDescService" />
+
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="allAmount" responseJson="allAmount" />
+        <field ref="INTEREST_AMOUNT" request="O" response="O" requestJson="interestAmount" responseJson="interestAmount" />
+        <field ref="PASSWORD" request="O" response="O" requestJson="pin" responseJson="pin" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="O" response="O" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+    </isomsg>
+
+    <!--Verify OTP -->
+    <isomsg processCode="900021">
+        <field ref="MSISDN" request="M" requestJson="providerCustId" responseJson="providerCustId" />
+        <field ref="DEV_STAFF_NAME" request="M" response="M" requestJson="bankAccType" responseJson="bankAccType" />
+        <field ref="OTP" request="M" requestJson="secureCode" />
+        <field ref="IDENTITY_NO" request="M" requestJson="verifyTransId" />
+        <field ref="BENEFICIARY_NAME" response="M" responseJson="bankAccInfo" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="M" responseJson="contentDescService" />
+    </isomsg>
+
+    <!--dinh danh BaoViet -->
+    <isomsg processCode="031101">
+        <field ref="MTI" request="M" requestJson="requestMti" defaultRequestValue="0200" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="TELCO_CODE" request="M" response="M" requestJson="telcoCode" responseJson="telcoCode" />
+        <field ref="BIRTH_DAY" request="O" response="M" requestJson="birthday" responseJson="birthday" />
+        <field ref="CUSTOMER_NAME" request="O" response="M" requestJson="customerName" responseJson="customerName" />
+        <field ref="CUSTOMER_GENDER" request="O" response="M" requestJson="gender" responseJson="gender" />
+        <field ref="ID_TYPE" request="O" response="M" requestJson="idType" responseJson="idType" />
+        <field ref="IDENTITY_NO" request="O" response="M" requestJson="idNumber" responseJson="idNumber" />
+        <field ref="EMAIL_ADDRESS" request="O" response="M" requestJson="emailAddress" responseJson="emailAddress" />
+        <field ref="DATE_ISSUSE" request="O" response="M" requestJson="dateIssuse" responseJson="dateIssuse" />
+        <field ref="PLACE_ISSUSE" request="O" response="M" requestJson="placeIssuse" responseJson="placeIssuse" />
+        <field ref="CUSTOMER_ADDRESS" request="O" response="M" requestJson="address" responseJson="address" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="M" response="M" requestJson="contentDescService" responseJson="contentDescService" />
+        <field ref="REF_NO" request="M" response="M" requestJson="referenceCode" responseJson="referenceCode" />
+        <field ref="TRANSACTION_TYPE" request="O" response="O" requestJson="transactionType" />
+    </isomsg>
+
+    <!-- 649000_EREKA -->
+    <isomsg processCode="649000_VTP100">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="SERVICE_INDICATOR" request="O" response="O" requestJson="serviceIndicator" responseJson="serviceIndicator" />
+        <field ref="ACCOUNT_NO" request="M" response="O" requestJson="accountNumber" responseJson="accountNumber" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="M" response="O" requestJson="creditAccountNumber" responseJson="creditAccountNumber" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContentCore" responseJson="transContentCore" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="BENEFICIARY_MSISDN" response="O" request="O" requestJson="benMsisdn" responseJson="benMsisdn" />
+    </isomsg>
+    <!-- 649000_EREKA end -->
+
+    <!-- MYGO -->
+    <isomsg processCode="VTP103">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="ACCOUNT_NO" request="O" response="O" requestJson="accountNo" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCode" />
+    </isomsg>
+    <isomsg processCode="VTP104">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="ACCOUNT_NO" request="O" response="O" requestJson="accountNo" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="O" requestJson="moneySourceBankCode" />
+    </isomsg>
+    <isomsg processCode="VTP110_649000">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="REF_NO" request="O" response="O" requestJson="referenceCode" responseJson="referenceCode" />
+        <field ref="BANK_TRANS_ID" request="O" response="O" requestJson="bankTransId" responseJson="bankTransId" />
+        <field ref="SERVICE_INDICATOR" request="O" response="O" requestJson="serviceIndicator" responseJson="serviceIndicator" />
+        <field ref="ACCOUNT_NO" request="M" response="O" requestJson="accountNumber" responseJson="accountNumber" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="M" response="O" requestJson="creditAccountNumber" responseJson="creditAccountNumber" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContentCore" responseJson="transContentCore" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="BENEFICIARY_MSISDN" response="O" request="O" requestJson="benMsisdn" responseJson="benMsisdn" />
+    </isomsg>
+    <!-- MYGO end -->
+
+    <!-- Lien ket ngan hang v2.0 START-->
+    <isomsg processCode="LNK001">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="CARD_NUMBER" request="M" response="O" requestJson="bankAccNo" responseJson="bankAccNo" />
+        <field ref="CARD_ISSUE_DATE" request="O" response="O" requestJson="bankAccDate" responseJson="bankAccDate" />
+        <field ref="CUSTOMER_NAME" request="O" response="O" requestJson="bankAccName" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContentCore" responseJson="transContentCore" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="IDENTITY_NO" request="O" response="O" requestJson="idNo" responseJson="idNo" />
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="otherInfo" responseJson="otherInfo" />
+        <field ref="BENEFICIARY_MSISDN" request="O" response="O" requestJson="benMsisdn" responseJson="benMsisdn" />
+        <field ref="CONTENT_DESCRIPTION_TRANSACTION" request="O" response="O" requestJson="transContent" responseJson="transContent" />
+    </isomsg>
+
+    <isomsg processCode="LNK011">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="CARD_NUMBER" request="M" response="O" requestJson="bankAccNo" responseJson="bankAccNo" />
+        <field ref="CARD_ISSUE_DATE" request="O" response="O" requestJson="bankAccDate" responseJson="bankAccDate" />
+        <field ref="CUSTOMER_NAME" request="O" response="O" requestJson="bankAccName" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContentCore" responseJson="transContentCore" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="IDENTITY_NO" response="O" request="O" requestJson="idNo" responseJson="idNo" />
+        <field ref="BENEFICIARY_MSISDN" request="O" response="O" requestJson="benMsisdn" responseJson="benMsisdn" />
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="otherInfo" responseJson="otherInfo" />
+
+        <field ref="OTP" request="M" requestJson="otp" />
+        <field ref="CUSTOMER_CODE" request="M" response="O" requestJson="token" responseJson="token" />
+        <field ref="CONTENT_DESCRIPTION_TRANSACTION" request="O" response="O" requestJson="transContent" responseJson="transContent" />
+        <field ref="ORINGINAL_REQUEST_ID" response="M" request="M" requestJson="originalRequestId" responseJson="originalRequestId" />
+        <field ref="INQUIRY_START_DATE" request="O" response="O" requestJson="tokenIssueDate" responseJson="tokenIssueDate" />
+        <field ref="INQUIRY_END_DATE" request="O" response="O" requestJson="tokenExpireDate" responseJson="tokenExpireDate" />
+    </isomsg>
+
+    <isomsg processCode="LNK022">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="CARD_NUMBER" request="M" response="O" requestJson="bankAccNo" responseJson="bankAccNo" />
+        <field ref="CUSTOMER_NAME" request="O" response="O" requestJson="bankAccName" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContentCore" responseJson="transContentCore" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="IDENTITY_NO" response="O" request="O" requestJson="idNo" responseJson="idNo" />
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="otherInfo" responseJson="otherInfo" />
+
+        <field ref="CUSTOMER_CODE" request="M" response="O" requestJson="token" responseJson="token" />
+        <field ref="INQUIRY_START_DATE" request="O" response="O" requestJson="tokenIssueDate" responseJson="tokenIssueDate" />
+        <field ref="CONTENT_DESCRIPTION_TRANSACTION" request="O" response="O" requestJson="transContent" responseJson="transContent" />
+    </isomsg>
+
+    <isomsg processCode="LNK003">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="CARD_NUMBER" request="M" response="O" requestJson="bankAccNo" responseJson="bankAccNo" />
+        <field ref="CUSTOMER_NAME" request="O" response="O" requestJson="bankAccName" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContentCore" responseJson="transContentCore" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="otherInfo" responseJson="otherInfo" />
+
+        <field ref="CUSTOMER_CODE" request="M" response="O" requestJson="token" responseJson="token" />
+        <field ref="INQUIRY_START_DATE" request="O" response="O" requestJson="tokenIssueDate" responseJson="tokenIssueDate" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="CONTENT_DESCRIPTION_TRANSACTION" request="O" response="O" requestJson="transContent" responseJson="transContent" />
+        <field ref="CURRENCY_CODE" request="O" response="O" requestJson="currencyCode" responseJson="currencyCode" />
+    </isomsg>
+
+    <isomsg processCode="LNK033">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="CARD_NUMBER" request="M" response="O" requestJson="bankAccNo" responseJson="bankAccNo" />
+        <field ref="CUSTOMER_NAME" request="O" response="O" requestJson="bankAccName" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContentCore" responseJson="transContentCore" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="otherInfo" responseJson="otherInfo" />
+
+        <field ref="CUSTOMER_CODE" request="M" response="O" requestJson="token" responseJson="token" />
+        <field ref="INQUIRY_START_DATE" request="O" response="O" requestJson="tokenIssueDate" responseJson="tokenIssueDate" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="OTP" request="M" requestJson="otp" />
+        <field ref="ORINGINAL_REQUEST_ID" response="M" request="M" requestJson="originalRequestId" responseJson="originalRequestId" />
+        <field ref="CONTENT_DESCRIPTION_TRANSACTION" request="O" response="O" requestJson="transContent" responseJson="transContent" />
+        <field ref="CURRENCY_CODE" request="O" response="O" requestJson="currencyCode" responseJson="currencyCode" />
+    </isomsg>
+
+    <isomsg processCode="LNK004">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="CARD_NUMBER" request="M" response="O" requestJson="bankAccNo" responseJson="bankAccNo" />
+        <field ref="CARD_ISSUE_DATE" request="O" response="O" requestJson="bankAccDate" responseJson="bankAccDate" />
+        <field ref="CUSTOMER_NAME" request="O" response="O" requestJson="bankAccName" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContentCore" responseJson="transContentCore" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="IDENTITY_NO" request="O" response="O" requestJson="idNo" responseJson="idNo" />
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="otherInfo" responseJson="otherInfo" />
+        <field ref="BENEFICIARY_MSISDN" request="O" response="O" requestJson="benMsisdn" responseJson="benMsisdn" />
+        <field ref="CONTENT_DESCRIPTION_TRANSACTION" request="O" response="O" requestJson="transContent" responseJson="transContent" />
+
+        <field ref="DATE_ISSUSE" request="O" response="O" requestJson="idIssueDate" responseJson="idIssueDate" />
+        <field ref="PLACE_ISSUSE" request="O" response="O" requestJson="idIssuePlace" responseJson="idIssuePlace" />
+        <field ref="CUSTOMER_GENDER" request="O" response="O" requestJson="gender" responseJson="gender" />
+        <field ref="BIRTH_DAY" request="O" response="O" requestJson="birthday" responseJson="birthday" />
+        <field ref="EMAIL_ADDRESS" request="O" response="O" requestJson="email" responseJson="email" />
+    </isomsg>
+
+    <isomsg processCode="LNK044">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="CARD_NUMBER" request="M" response="O" requestJson="bankAccNo" responseJson="bankAccNo" />
+        <field ref="CARD_ISSUE_DATE" request="O" response="O" requestJson="bankAccDate" responseJson="bankAccDate" />
+        <field ref="CUSTOMER_NAME" request="O" response="O" requestJson="bankAccName" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContentCore" responseJson="transContentCore" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="IDENTITY_NO" request="O" response="O" requestJson="idNo" responseJson="idNo" />
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="otherInfo" responseJson="otherInfo" />
+        <field ref="BENEFICIARY_MSISDN" request="O" response="O" requestJson="benMsisdn" responseJson="benMsisdn" />
+        <field ref="CONTENT_DESCRIPTION_TRANSACTION" request="O" response="O" requestJson="transContent" responseJson="transContent" />
+
+        <field ref="DATE_ISSUSE" request="O" response="O" requestJson="idIssueDate" responseJson="idIssueDate" />
+        <field ref="PLACE_ISSUSE" request="O" response="O" requestJson="idIssuePlace" responseJson="idIssuePlace" />
+        <field ref="CUSTOMER_GENDER" request="O" response="O" requestJson="gender" responseJson="gender" />
+        <field ref="BIRTH_DAY" request="O" response="O" requestJson="birthday" responseJson="birthday" />
+        <field ref="EMAIL_ADDRESS" request="O" response="O" requestJson="email" responseJson="email" />
+
+        <field ref="ORINGINAL_REQUEST_ID" response="M" request="M" requestJson="originalRequestId" responseJson="originalRequestId" />
+        <field ref="OTP" request="M" requestJson="otp" />
+        <field ref="CUSTOMER_CODE" request="M" response="O" requestJson="token" responseJson="token" />
+        <field ref="CONTENT_DESCRIPTION_TRANSACTION" request="O" response="O" requestJson="transContent" responseJson="transContent" />
+    </isomsg>
+
+    <isomsg processCode="LNK005">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="CARD_NUMBER" request="M" response="O" requestJson="bankAccNo" responseJson="bankAccNo" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContentCore" responseJson="transContentCore" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="otherInfo" responseJson="otherInfo" />
+        <field ref="CONTENT_DESCRIPTION_TRANSACTION" request="O" response="O" requestJson="transContent" responseJson="transContent" />
+        <field ref="ORINGINAL_REQUEST_ID" response="M" request="M" requestJson="originalRequestId" responseJson="originalRequestId" />
+    </isomsg>
+
+    <isomsg processCode="LNK006">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="CARD_NUMBER" request="M" response="O" requestJson="bankAccNo" responseJson="bankAccNo" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContentCore" responseJson="transContentCore" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="otherInfo" responseJson="otherInfo" />
+        <field ref="CONTENT_DESCRIPTION_TRANSACTION" request="O" response="O" requestJson="transContent" responseJson="transContent" />
+    </isomsg>
+
+    <isomsg processCode="LNK111">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="CARD_NUMBER" request="M" response="O" requestJson="bankAccNo" responseJson="bankAccNo" />
+        <field ref="CARD_ISSUE_DATE" request="O" response="O" requestJson="bankAccDate" responseJson="bankAccDate" />
+        <field ref="CUSTOMER_NAME" request="O" response="O" requestJson="bankAccName" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContentCore" responseJson="transContentCore" />
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="otherInfo" responseJson="otherInfo" />
+
+        <field ref="CUSTOMER_CODE" request="M" response="O" requestJson="token" responseJson="token" />
+        <field ref="INQUIRY_START_DATE" request="O" response="O" requestJson="tokenIssueDate" responseJson="tokenIssueDate" />
+        <field ref="INQUIRY_END_DATE" request="O" response="O" requestJson="tokenExpireDate" responseJson="tokenExpireDate" />
+    </isomsg>
+
+    <isomsg processCode="649000_LNK649">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="REF_NO" request="O" response="O" requestJson="referenceCode" responseJson="referenceCode" />
+        <field ref="BANK_TRANS_ID" request="O" response="O" requestJson="bankTransId" responseJson="bankTransId" />
+        <field ref="SERVICE_INDICATOR" request="O" response="O" requestJson="serviceIndicator" responseJson="serviceIndicator" />
+        <field ref="ACCOUNT_NO" request="M" response="O" requestJson="accountNumber" responseJson="accountNumber" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="M" response="O" requestJson="beneficiaryAccountNo" responseJson="beneficiaryAccountNo" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContentCore" responseJson="transContentCore" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="BENEFICIARY_MSISDN" response="O" request="O" requestJson="benMsisdn" responseJson="benMsisdn" />
+    </isomsg>
+    <!-- Lien ket ngan hang END-->
+
+    <!-- CHI LUONG API -->
+    <isomsg processCode="MGW_400000">
+        <field ref="PROCESS_CODE" request="M" response="O" requestJson="merchantProcessCode" responseJson="merchantProcessCode" defaultRequestValue="400000" />
+        <field ref="CUSTOMER_NAME" request="M" response="M" requestJson="partnerCode" responseJson="partnerCode" />
+        <field ref="RESPONSE_CODE" response="M" responseJson="responseCode" />
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="tidNumber" responseJson="tidNumber" />
+        <field ref="VT_SHOP_NAME" request="O" response="O" requestJson="providerCode" responseJson="providerCode" />
+        <field ref="TRANSACTION_TYPE" request="M" response="O" requestJson="haveAmount" responseJson="haveAmount" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transAmount" responseJson="transAmount" />
+        <field ref="ADDITION_DATA" request="O" response="O" requestJson="miniStatementData" responseJson="miniStatementData" />
+    </isomsg>
+    <isomsg processCode="MGW_400001">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="merchantProcessCode" responseJson="merchantProcessCode" defaultRequestValue="400001" />
+        <field ref="ADDITION_DATA" request="M" requestJson="statementData" />
+        <field ref="CUSTOMER_NAME" request="M" response="O" requestJson="partnerCode" responseJson="partnerCode" />
+        <field ref="RESPONSE_CODE" response="M" responseJson="responseCode" />
+        <field ref="TID_NUMBER" request="M" response="O" requestJson="orderId" responseJson="orderId" />
+    </isomsg>
+    <isomsg processCode="MGW_400002">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="merchantProcessCode" responseJson="merchantProcessCode" defaultRequestValue="400002" />
+        <field ref="SERVICE_CODE" request="M" response="O" requestJson="detailType" responseJson="detailType" />
+        <field ref="TID_NUMBER" request="M" response="O" requestJson="orderId" responseJson="orderId" />
+        <field ref="CUSTOMER_NAME" request="M" response="O" requestJson="partnerCode" responseJson="partnerCode" />
+        <field ref="RESPONSE_CODE" response="M" responseJson="responseCode" />
+        <field ref="ADDITION_DATA" response="M" responseJson="statementData" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" requestJson="queryData" responseJson="queryData" />
+    </isomsg>
+    <!-- end CHI LUONG API -->
+
+    <!--Chuyen tien mat - nhan tai quay -->
+    <isomsg processCode="653000">
+        <field ref="MTI" request="M" requestJson="requestMti" defaultRequestValue="0200" />
+
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="M" requestJson="amount" responseJson="amount" />
+        <field ref="TELCO_CODE" request="M" response="M" requestJson="telcoCode" responseJson="telcoCode" />
+        <field ref="REF_NO" request="M" response="M" requestJson="referenceCode" responseJson="referenceCode" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="OTP" request="O" response="M" requestJson="otp" responseJson="otp" />
+        <field ref="TRANSACTION_TYPE" request="O" response="O" requestJson="transactionType" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" responseJson="benName" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" />
+        <field ref="SERVICE_INDICATOR" request="O" response="O" requestJson="serviceIndicator" />
+        <field ref="BENEFICIARY_MSISDN" request="M" response="O" requestJson="recvMsisdn" />
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="tidNumber" responseJson="tidNumber" />
+        <field ref="CUSTOMER_NAME" request="M" response="O" requestJson="customerName" responseJson="customerName" />
+        <field ref="MESSAGE_SIGNATURE" response="O" responseJson="messageSignature" />
+        <field ref="IDENTITY_NO" request="O" response="O" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="BEN_BANK_NAME" request="O" response="O" requestJson="appName" responseJson="appName" />
+        <field ref="CARD_NUMBER" response="O" responseJson="cardNumber" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" response="O" responseJson="creditAccountNumber" />
+    </isomsg>
+
+    <!--Chuyen tien mat - nhan tai nha -->
+    <isomsg processCode="652000">
+        <field ref="MTI" request="M" requestJson="requestMti" defaultRequestValue="0200" />
+
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="M" requestJson="amount" responseJson="amount" />
+        <field ref="TELCO_CODE" request="M" response="M" requestJson="telcoCode" responseJson="telcoCode" />
+        <field ref="REF_NO" request="M" response="M" requestJson="referenceCode" responseJson="referenceCode" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="OTP" request="O" response="M" requestJson="otp" responseJson="otp" />
+        <field ref="TRANSACTION_TYPE" request="O" response="O" requestJson="transactionType" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" responseJson="benName" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" />
+        <field ref="SERVICE_INDICATOR" request="O" response="O" requestJson="serviceIndicator" />
+        <field ref="BENEFICIARY_MSISDN" request="M" response="O" requestJson="recvMsisdn" />
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="tidNumber" responseJson="tidNumber" />
+        <field ref="CUSTOMER_NAME" request="M" response="O" requestJson="customerName" responseJson="customerName" />
+        <field ref="MESSAGE_SIGNATURE" response="O" responseJson="messageSignature" />
+        <field ref="IDENTITY_NO" request="O" response="O" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="BEN_BANK_NAME" request="O" response="O" requestJson="appName" responseJson="appName" />
+        <field ref="PROVINCE_NAME" request="O" response="O" requestJson="provinceName" responseJson="provinceName" />
+        <field ref="PROVINCE_CODE" request="O" response="O" requestJson="provinceCode" responseJson="provinceCode" />
+        <field ref="CARD_NUMBER" response="O" responseJson="cardNumber" />
+    </isomsg>
+
+    <!--PREPAID-->
+    <isomsg processCode="MGW_960000">
+        <field ref="MTI" request="M" response="M" requestJson="requestMti" responseJson="responseMti" defaultRequestValue="0500" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="merchantProcessCode" responseJson="merchantProcessCode" defaultRequestValue="300000" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="serviceCode" />
+        <field ref="TELCO_CODE" request="O" requestJson="telcoCode" />
+        <field ref="MSISDN" request="O" requestJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="ADDITION_DATA" request="O" response="O" requestJson="miniStatementData" responseJson="miniStatementData" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" responseJson="cust_name" />
+        <field ref="ORINGINAL_REQUEST_ID" request="O" requestJson="order_id" />
+        <field ref="TRANSACTION_FEE" request="O" requestJson="transFeeMerchant" />
+        <field ref="STATUS" request="O" requestJson="status" />
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="tidNumber" responseJson="tidNumber" />
+    </isomsg>
+    <!--PREPAID end-->
+
+    <!-- Ban tin hoan huy CTT moi-->
+    <isomsg processCode="MGW_300111">
+        <field ref="MTI" request="M" response="M" requestJson="requestMti" responseJson="responseMti" defaultRequestValue="0500" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="processCode" responseJson="processCode" defaultRequestValue="300111" />
+        <field ref="SERVICE_CODE" request="M" requestJson="serviceCode" response="M" responseJson="serviceCode" />
+        <field ref="TID_NUMBER" request="M" requestJson="refundType" response="O" responseJson="refundType" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="M" requestJson="transContent" response="O" responseJson="errorDesc" />
+        <field ref="ORINGINAL_REQUEST_ID" request="M" requestJson="originalRequestId" response="O" responseJson="originalRequestId" />
+        <field ref="TRANSACTION_AMOUNT" request="M" requestJson="amount" response="O" responseJson="amount" />
+        <field ref="MSISDN" request="O" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="BILLING_CODE" request="O" requestJson="billingCode" response="M" responseJson="billingCode" />
+        <field ref="ADDITION_DATA" request="O" response="M" requestJson="miniStatementData" responseJson="miniStatementData" />
+        <field ref="ADDITIONAL_DATA" request="M" response="O" requestJson="additionalData" responseJson="additionalData" />
+        <field ref="REMAINING_PAYMENT" request="M" response="O" requestJson="remainingPayment" responseJson="remainingPayment" />
+        <!-- os_minhtd: Add field for bambo airway-->
+        <field ref="IDENTITY_NO" request="O" response="O" requestJson="idNumber" responseJson="idNumber" />
+        <!-- os_minhtd: Add field for refund napas-->
+        <field ref="BENEFICIARY_NAME" response="O" request="O" requestJson="beneficiaryName" responseJson="beneficiaryName" />
+    </isomsg>
+    <!-- Hoan huy CTT end -->
+    <isomsg processCode="MGW_960003">
+        <field ref="ORINGINAL_REQUEST_ID" request="M" response="O" requestJson="original_request_id" />
+        <field ref="SERVICE_CODE" request="M" response="O" requestJson="service_code" />
+        <field ref="RESPONSE_CODE" request="O" response="O" responseJson="response_code" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="M" responseJson="content_descriptions_service" />
+        <field ref="ADDITION_DATA" request="O" response="O" responseJson="statement_data" />
+    </isomsg>
+    <isomsg processCode="MGW_300033">
+        <field ref="MTI" request="M" requestJson="requestMti" defaultRequestValue="400" />
+        <field ref="TRANSACTION_AMOUNT" request="M" requestJson="amount" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="processCode" responseJson="processCode" defaultRequestValue="300033" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="serviceCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="TELCO_CODE" request="M" response="M" requestJson="telcoCode" responseJson="telcoCode" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="TID_NUMBER" request="M" response="M" requestJson="tidNumber" />
+        <field ref="MESSAGE_SIGNATURE" response="O" responseJson="messageSignature" />
+        <field ref="ADDITION_DATA" request="O" response="M" requestJson="miniStatementData" responseJson="miniStatementData" />
+    </isomsg>
+    <!-- GET_HISTORY_MYPARKING -->
+    <isomsg processCode="MGW_300034">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="merchantProcessCode" responseJson="merchantProcessCode" defaultRequestValue="300034" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="serviceCode" responseJson="serviceCode" />
+        <field ref="TELCO_CODE" request="O" response="O" requestJson="telcoCode" responseJson="telcoCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="ADDITION_DATA" response="M" responseJson="miniStatementData" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="viettelBankCode" responseJson="viettelBankCode" />
+    </isomsg>
+    <isomsg processCode="051021">
+        <field ref="MTI" request="M" requestJson="requestMti" defaultRequestValue="400" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="REF_NO" request="M" response="M" requestJson="referenceCode" responseJson="referenceCode" />
+        <field ref="TRANSACTION_AMOUNT" request="M" requestJson="amount" />
+        <field ref="TELCO_CODE" request="M" response="M" requestJson="telcoCode" responseJson="telcoCode" />
+        <field ref="REF_NO" request="M" response="M" requestJson="referenceCode" responseJson="referenceCode" />
+        <field ref="PASSWORD" request="M" requestJson="pin" />
+        <field ref="MOBILE_CONTACT" request="M" requestJson="recvMsisdn" />
+        <field ref="CARD_NUMBER" request="M" response="M" requestJson="cardNumber" responseJson="cardNumber" />
+        <field ref="SERVICE_INDICATOR" request="O" response="O" requestJson="serviceIndicator" />
+        <field ref="AGENT_CODE" response="M" responseJson="agentCode" />
+        <field ref="CUSTOMER_CODE" response="M" responseJson="customerCode" />
+        <field ref="MESSAGE_SIGNATURE" response="O" responseJson="messageSignature" />
+        <field ref="STAFF_CODE" response="M" responseJson="viettel_staff_code" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="M" responseJson="contentDescService" />
+        <field ref="TRANSACTION_FEE" response="M" request="M" requestJson="transFee" responseJson="transFee" />
+    </isomsg>
+
+    <isomsg processCode="051022">
+        <field ref="MTI" request="M" requestJson="requestMti" defaultRequestValue="400" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="REF_NO" request="M" response="M" requestJson="referenceCode" responseJson="referenceCode" />
+        <field ref="TRANSACTION_AMOUNT" request="M" requestJson="amount" />
+        <field ref="TELCO_CODE" request="M" response="M" requestJson="telcoCode" responseJson="telcoCode" />
+        <field ref="REF_NO" request="M" response="M" requestJson="referenceCode" responseJson="referenceCode" />
+        <field ref="PASSWORD" request="M" requestJson="pin" />
+        <field ref="CARD_NUMBER" request="M" requestJson="cardNumber" />
+        <field ref="SERVICE_INDICATOR" request="O" response="O" requestJson="serviceIndicator" />
+        <field ref="CUSTOMER_CODE" response="M" responseJson="customerCode" />
+        <field ref="MESSAGE_SIGNATURE" response="O" responseJson="messageSignature" />
+        <field ref="STAFF_CODE" request="M" response="M" requestJson="viettel_staff_code" responseJson="viettel_staff_code" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="M" responseJson="contentDescService" />
+    </isomsg>
+
+    <isomsg processCode="051023">
+        <field ref="MTI" request="M" requestJson="requestMti" defaultRequestValue="400" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="REF_NO" request="M" response="M" requestJson="referenceCode" responseJson="referenceCode" />
+        <field ref="TRANSACTION_AMOUNT" request="M" requestJson="amount" />
+        <field ref="TELCO_CODE" request="M" response="M" requestJson="telcoCode" responseJson="telcoCode" />
+        <field ref="REF_NO" request="M" response="M" requestJson="referenceCode" responseJson="referenceCode" />
+        <field ref="PASSWORD" request="M" requestJson="pin" />
+        <field ref="ACCOUNT_TYPE" request="M" requestJson="accountType" />
+        <field ref="MOBILE_CONTACT" request="M" requestJson="recvMsisdn" />
+        <field ref="CARD_NUMBER" request="M" requestJson="cardNumber" />
+        <field ref="INQUIRY_START_DATE" request="M" requestJson="startDate" />
+        <field ref="INQUIRY_END_DATE" request="M" requestJson="endDate" />
+        <field ref="SERVICE_INDICATOR" request="O" response="O" requestJson="serviceIndicator" />
+        <field ref="MESSAGE_SIGNATURE" response="O" responseJson="messageSignature" />
+        <field ref="ADDITION_DATA" response="O" responseJson="additionalData" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" response="M" responseJson="contentDescService" />
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="tidNumber" responseJson="tidNumber" />
+    </isomsg>
+    <isomsg processCode="051027">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="fee" />
+        <field ref="ACCOUNT_TYPE" request="M" response="O" requestJson="sourceFrom" responseJson="sourceFrom" />
+        <field ref="CARD_NUMBER" request="M" response="O" requestJson="sourceNumber" responseJson="sourceNumber" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="destType" responseJson="destType" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" response="M" request="M" requestJson="destNumber" responseJson="destNumber" />
+        <field ref="BENEFICIARY_NAME" response="O" request="O" requestJson="beneficiaryName" responseJson="beneficiaryName" />
+        <field ref="BENEFICIARY_BANK_CODE" response="M" request="M" requestJson="destBank" responseJson="destBank" />
+    </isomsg>
+    <isomsg processCode="051028">
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="fee" />
+        <field ref="ACCOUNT_TYPE" request="M" response="O" requestJson="sourceFrom" responseJson="sourceFrom" />
+        <field ref="CARD_NUMBER" request="M" response="O" requestJson="sourceNumber" responseJson="sourceNumber" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="destType" responseJson="destType" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" response="M" request="M" requestJson="destNumber" responseJson="destNumber" />
+        <field ref="BENEFICIARY_BANK_CODE" response="M" request="M" requestJson="destBank" responseJson="destBank" />
+        <field ref="BENEFICIARY_NAME" response="O" request="O" requestJson="beneficiaryName" responseJson="beneficiaryName" />
+    </isomsg>
+
+    <!-- vancq Thanh toan MM -->
+    <isomsg processCode="MM0001_300001">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="serviceCode" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="INTEREST_TYPE" request="O" response="O" requestJson="interestType" responseJson="interestType" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="DISCOUNT_BANK" request="O" response="O" requestJson="discountAmount" responseJson="discountAmount" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="contentDescService" responseJson="contentDescService" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" /> <!-- clientId and clientSecret -->
+        <field ref="CUSTOMER_CODE" request="O" response="O" requestJson="customerCode" responseJson="customerCode" /> <!-- Part 1 of token -->
+        <field ref="CUSTOMER_SIGNATURE" request="O" response="O" requestJson="customerSignature" responseJson="customerSignature" /> <!-- Part 2 of token -->
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="signatureUrl" responseJson="signatureUrl" /> <!-- Part 3 of token -->
+        <field ref="VENUE_ID" request="O" response="O" requestJson="srcRequestId" responseJson="srcRequestId" />
+        <field ref="VT_SHOP_NAME" request="O" response="O" requestJson="serviceName" responseJson="serviceName" />
+        <field ref="CHANNEL_TYPE_ID" request="O" response="O" requestJson="channelTypeId" responseJson="channelTypeId" />
+    </isomsg>
+    <!-- vancq Thanh toan MM end -->
+
+    <!-- vancq Revert thanh toan MM -->
+    <isomsg processCode="MM0001_300001_REVERT">
+        <field ref="REQUEST_ID" request="M" response="M" requestJson="refundRequestId" responseJson="refundRequestId" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="serviceCode" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="INTEREST_TYPE" request="O" response="O" requestJson="interestType" responseJson="interestType" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="DISCOUNT_BANK" request="O" response="O" requestJson="discountAmount" responseJson="discountAmount" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="contentDescService" responseJson="contentDescService" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" /> <!-- clientId and clientSecret -->
+        <field ref="CUSTOMER_CODE" request="O" response="O" requestJson="customerCode" responseJson="customerCode" /> <!-- Part 1 of token -->
+        <field ref="CUSTOMER_SIGNATURE" request="O" response="O" requestJson="customerSignature" responseJson="customerSignature" /> <!-- Part 2 of token -->
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="signatureUrl" responseJson="signatureUrl" /> <!-- Part 3 of token -->
+        <field ref="ORINGINAL_REQUEST_ID" request="O" response="O" requestJson="requestId" responseJson="requestId" />
+        <field ref="VENUE_ID" request="O" response="O" requestJson="srcRequestId" responseJson="srcRequestId" />
+        <field ref="VT_SHOP_NAME" request="O" response="O" requestJson="serviceName" responseJson="serviceName" />
+        <field ref="CHANNEL_TYPE_ID" request="O" response="O" requestJson="channelTypeId" responseJson="channelTypeId" />
+    </isomsg>
+    <!-- vancq Revert thanh toan MM end -->
+
+
+    <!-- vancq Truy van no MM -->
+    <isomsg processCode="MGW_MM0002">
+        <field ref="TELCO_CODE" request="M" requestJson="clientId" />
+        <field ref="TRANSACTION_TYPE" request="O" requestJson="transactionType" />
+        <field ref="MTI" request="M" response="M" requestJson="requestMti" responseJson="responseMti" defaultRequestValue="0500" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="merchantProcessCode" responseJson="merchantProcessCode" defaultRequestValue="300000" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="serviceCode" />
+        <field ref="SERVICE_INDICATOR" request="O" requestJson="serviceIndicator" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="TRANSACTION_TYPE" request="O" response="O" requestJson="transType" responseJson="transType" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="tidNumber" responseJson="tidNumber" />
+        <field ref="ADDITION_DATA" request="O" response="O" requestJson="miniStatementData" responseJson="miniStatementData" />
+        <field ref="CUSTOMER_NAME" request="O" response="O" requestJson="customerName" />
+        <field ref="STATUS" request="O" response="O" requestJson="status" responseJson="status" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" responseJson="benName" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="contentDescService" responseJson="contentDescService" />
+    </isomsg>
+    <!-- vancq Truy van no MM end -->
+
+    <!-- vancq Gach no MM -->
+    <isomsg processCode="MGW_MM0001">
+        <field ref="TELCO_CODE" request="M" requestJson="clientId" />
+        <field ref="TRANSACTION_TYPE" request="O" requestJson="transactionType" />
+        <field ref="MTI" request="M" response="M" requestJson="requestMti" responseJson="responseMti" defaultRequestValue="0500" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="merchantProcessCode" responseJson="merchantProcessCode" defaultRequestValue="300001" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="serviceCode" />
+        <field ref="SERVICE_INDICATOR" request="O" requestJson="serviceIndicator" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="TRANSACTION_TYPE" request="O" response="O" requestJson="transType" responseJson="transType" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="tidNumber" responseJson="tidNumber" />
+        <field ref="ADDITION_DATA" request="O" response="O" requestJson="miniStatementData" responseJson="miniStatementData" />
+        <field ref="CUSTOMER_NAME" request="O" response="O" requestJson="customerName" />
+        <field ref="STATUS" request="O" response="O" requestJson="status" responseJson="status" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" responseJson="benName" />
+        <field ref="PLACE_ISSUSE" request="O" response="O" responseJson="placeOfIssue" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="contentDescService" responseJson="contentDescService" />
+        <field ref="ORINGINAL_REQUEST_ID" request="O" response="O" requestJson="srcRequestId" responseJson="srcRequestId" />
+    </isomsg>
+    <!-- vancq Gach no MM end -->
+
+    <!-- quynt Lay thong tin profile MM -->
+    <isomsg processCode="312001">
+        <field ref="MSISDN" request="M" response="O" requestJson="msisdn" />
+        <field ref="PASSWORD" request="O" response="O" requestJson="pin" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" responseJson="monthConsumption" />
+        <field ref="ADDITION_DATA" request="O" response="O" responseJson="packageLimit" />
+        <field ref="CUSTOMER_ADDRESS" request="O" response="O" responseJson="profile" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" responseJson="errorDesc" />
+    </isomsg>
+    <!-- dunglh9 Thanh toan webview MM -->
+    <isomsg processCode="300001_MM">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="serviceCode" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="INTEREST_TYPE" request="O" response="O" requestJson="interestType" responseJson="interestType" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="DISCOUNT_BANK" request="O" response="O" requestJson="discountAmount" responseJson="discountAmount" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="contentDescService" responseJson="contentDescService" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" /> <!-- clientId and clientSecret -->
+        <field ref="CUSTOMER_CODE" request="O" response="O" requestJson="customerCodeMb" responseJson="customerCodeMb" /> <!-- Part 1 of token -->
+        <field ref="CUSTOMER_SIGNATURE" request="O" response="O" requestJson="customerSignature" responseJson="customerSignature" /> <!-- Part 2 of token -->
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="signatureUrl" responseJson="signatureUrl" /> <!-- Part 3 of token -->
+        <field ref="VENUE_ID" request="O" response="O" requestJson="srcRequestId" responseJson="srcRequestId" />
+        <field ref="VT_SHOP_NAME" request="O" response="O" requestJson="service_name" responseJson="service_name" />
+        <field ref="CHANNEL_TYPE_ID" request="O" response="O" requestJson="userPayFrom" responseJson="userPayFrom" />
+    </isomsg>
+    <!-- dunglh9 Thanh toan webview MM end -->
+
+    <!-- dunglh9 Revert thanh toan webview MM -->
+    <isomsg processCode="300001_300001_REVERT">
+        <field ref="REQUEST_ID" request="M" response="M" requestJson="refundRequestId" responseJson="refundRequestId" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="serviceCode" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="INTEREST_TYPE" request="O" response="O" requestJson="interestType" responseJson="interestType" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="DISCOUNT_BANK" request="O" response="O" requestJson="discountAmount" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="contentDescService" responseJson="contentDescService" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" /> <!-- clientId and clientSecret -->
+        <field ref="CUSTOMER_CODE" request="O" response="O" requestJson="customerCodeMb" responseJson="customerCodeMb" /> <!-- Part 1 of token -->
+        <field ref="CUSTOMER_SIGNATURE" request="O" response="O" requestJson="customerSignature" responseJson="customerSignature" /> <!-- Part 2 of token -->
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="signatureUrl" responseJson="signatureUrl" /> <!-- Part 3 of token -->
+        <field ref="ORINGINAL_REQUEST_ID" request="O" response="O" requestJson="requestId" responseJson="requestId" />
+        <field ref="VENUE_ID" request="O" response="O" requestJson="srcRequestId" responseJson="srcRequestId" />
+    </isomsg>
+
+    <!-- dunglh9 Revert thanh toan VNPAYQR MM -->
+    <isomsg processCode="QRVNP1_300001_REVERT">
+        <field ref="REQUEST_ID" request="M" response="M" requestJson="refundRequestId" responseJson="refundRequestId" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="serviceCode" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="INTEREST_TYPE" request="O" response="O" requestJson="interestType" responseJson="interestType" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="DISCOUNT_BANK" request="O" response="O" requestJson="discountAmount" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="contentDescService" responseJson="contentDescService" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" /> <!-- clientId and clientSecret -->
+        <field ref="CUSTOMER_CODE" request="O" response="O" requestJson="customerCodeMb" responseJson="customerCodeMb" /> <!-- Part 1 of token -->
+        <field ref="CUSTOMER_SIGNATURE" request="O" response="O" requestJson="customerSignature" responseJson="customerSignature" /> <!-- Part 2 of token -->
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="signatureUrl" responseJson="signatureUrl" /> <!-- Part 3 of token -->
+        <field ref="ORINGINAL_REQUEST_ID" request="O" response="O" requestJson="requestId" responseJson="requestId" />
+        <field ref="VENUE_ID" request="O" response="O" requestJson="srcRequestId" responseJson="srcRequestId" />
+    </isomsg>
+    <!-- dunglh9 Revert thanh toan VNPAYQR MM end -->
+
+    <!-- dunglh9 Gui sang merchant VNPAYQR MM -->
+    <isomsg processCode="MGW_QRVNP1">
+        <field ref="TELCO_CODE" request="M" requestJson="clientId" />
+        <field ref="TRANSACTION_TYPE" request="O" requestJson="transactionType" />
+        <field ref="MTI" request="M" response="M" requestJson="requestMti" responseJson="responseMti" defaultRequestValue="0500" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="merchantProcessCode" responseJson="merchantProcessCode" defaultRequestValue="300001" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="serviceCode" />
+        <field ref="SERVICE_INDICATOR" request="O" requestJson="serviceIndicator" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="TRANSACTION_TYPE" request="O" response="O" requestJson="transType" responseJson="transType" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="referenceCode" responseJson="referenceCode" />
+        <field ref="ADDITION_DATA" response="O" responseJson="miniStatementData" />
+        <field ref="CUSTOMER_NAME" request="O" response="O" requestJson="customerName" />
+        <field ref="STATUS" request="O" response="O" requestJson="status" responseJson="status" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" responseJson="benName" />
+        <field ref="PLACE_ISSUSE" request="O" response="O" responseJson="placeOfIssue" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="contentDescService" responseJson="contentDescService" />
+        <field ref="ORINGINAL_REQUEST_ID" request="O" response="O" requestJson="srcRequestId" responseJson="srcRequestId" />
+    </isomsg>
+    <!-- dunglh9 Gui sang merchant VNPAYQR MM end -->
+    <!-- quangbv Topup MM -->
+    <isomsg processCode="810000_PAY2">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TELCO_CODE" request="M" requestJson="clientId" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="OTP" request="M" requestJson="otp" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="TRANSACTION_TYPE" request="O" response="O" requestJson="transType" />
+        <field ref="DISCOUNT_PERCENT" request="O" response="O" requestJson="discountPercent" />
+        <field ref="DISCOUNT" request="O" response="O" requestJson="discountAmount" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" responseJson="transContent" />
+        <field ref="CUSTOMER_CODE_VT" request="O" response="O" requestJson="customerCodeVT" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="SERVICE_INDICATOR" request="M" response="O" requestJson="serviceIndicatorEgate" />
+        <field ref="PAYMENT_TYPE" request="M" response="O" requestJson="corePaymentType" />
+    </isomsg>
+    <!-- dunglh9 Gui sang merchant webview MM -->
+    <isomsg processCode="MGW_300001">
+        <field ref="TELCO_CODE" request="M" requestJson="clientId" />
+        <field ref="TRANSACTION_TYPE" request="O" requestJson="transactionType" />
+        <field ref="MTI" request="M" response="M" requestJson="requestMti" responseJson="responseMti" defaultRequestValue="0500" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="merchantProcessCode" responseJson="merchantProcessCode" defaultRequestValue="300001" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="serviceCode" />
+        <field ref="SERVICE_INDICATOR" request="O" requestJson="serviceIndicator" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="TRANSACTION_TYPE" request="O" response="O" requestJson="transType" responseJson="transType" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="tidNumber" responseJson="tidNumber" />
+        <field ref="ADDITION_DATA" response="O" responseJson="miniStatementData" />
+        <field ref="CUSTOMER_NAME" request="O" response="O" requestJson="customerName" />
+        <field ref="STATUS" request="O" response="O" requestJson="status" responseJson="status" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" responseJson="benName" />
+        <field ref="PLACE_ISSUSE" request="O" response="O" responseJson="placeOfIssue" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="contentDescService" responseJson="contentDescService" />
+        <field ref="ORINGINAL_REQUEST_ID" request="O" response="O" requestJson="srcRequestId" responseJson="srcRequestId" />
+    </isomsg>
+    <!-- dunglh9 Gui sang merchant webview MM end -->
+
+    <!-- loivt7 get infomation for myViettel -->
+    <isomsg processCode="311003">
+        <field ref="MSISDN" request="M" response="O" requestJson="msisdn" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="BEN_BANK_NAME" request="O" response="O" requestJson="parentCode" />
+        <field ref="PROVINCE_NAME" request="M" response="O" responseJson="province" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" responseJson="errorDesc" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="O" response="O" requestJson="moneySourceBankCode" />
+    </isomsg>
+
+    <isomsg processCode="649000_NAP_LIENKET_HATANG_VTB">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" requestJson="accountBenName" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" response="O" requestJson="creditAccountNumber" />
+        <field ref="ACCOUNT_NO" request="O" response="O" requestJson="accountNumber" />
+        <field ref="CONTENT_DESCRIPTION_TRANSACTION" request="M" requestJson="transContentCore" />
+        <field ref="VIETTEL_BANK_CODE" request="M" requestJson="viettelBankCode" />
+    </isomsg>
+    <!-- 646000_LIXI_MM -->
+    <isomsg processCode="646000_LIXIQR_MM">
+        <field ref="MTI" request="O" response="O" requestJson="requestMtiCore" responseJson="requestMtiCore" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+        <field ref="SHOP_CODE" request="M" response="O" requestJson="vtShopCode" responseJson="vtShopCode" />
+        <field ref="STAFF_CODE" request="M" response="O" requestJson="vtStaffCode" responseJson="vtStaffCode" />
+        <field ref="REQUEST_ID" request="M" response="M" requestJson="requestId" responseJson="requestId" />
+        <field ref="ADDITIONAL_DATA" request="M" response="O" requestJson="additionalData" responseJson="additionalData" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="viettelBankCodeTrans" responseJson="viettelBankCodeTrans" />
+        <field ref="ACCOUNT_NO" request="M" response="O" requestJson="accountNumber" responseJson="accountNumber" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="M" response="O" requestJson="creditAccountNumber" responseJson="creditAccountNumber" />
+        <field ref="BENEFICIARY_BANK_CODE" request="O" response="O" requestJson="beneficiaryBankCode" responseJson="beneficiaryBankCode" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContentCore" responseJson="transContentCore" />
+        <field ref="PROVINCE_CODE" request="O" response="O" requestJson="provinceCode" responseJson="provinceCode" />
+    </isomsg>
+
+    <isomsg processCode="610001_PAY2">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TELCO_CODE" request="M" requestJson="clientId" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="OTP" request="M" requestJson="otp" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="TRANSACTION_TYPE" request="O" response="O" requestJson="transType" />
+        <field ref="DISCOUNT_PERCENT" request="O" response="O" requestJson="discountPercent" />
+        <field ref="DISCOUNT" request="O" response="O" requestJson="discountAmount" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" responseJson="transContent" />
+        <field ref="CUSTOMER_CODE_VT" request="O" response="O" requestJson="customerCodeVT" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="SERVICE_INDICATOR" request="M" response="O" requestJson="serviceIndicatorEgate" />
+        <field ref="PAYMENT_TYPE" request="M" response="O" requestJson="corePaymentType" />
+        <field ref="INTEREST_TYPE" request="M" response="O" requestJson="interestType" />
+        <field ref="INTEREST_AMOUNT" request="M" response="O" requestJson="interestAmount" />
+        <!-- them token thanh toan-->
+        <field ref="MONEY_SOURCE_BANK_CODE" request="O" response="O" requestJson="moneySourceBankCode" />
+        <field ref="AGENT_CODE" request="O" response="O" requestJson="agentCode" />
+        <field ref="DISCOUNT_BANK" request="O" response="O" requestJson="discountBank" responseJson="discountBank" />
+        <field ref="VT_SHOP_NAME" request="O" response="O" requestJson="shopName" />
+        <field ref="ACCOUNT_NO" request="O" response="O" requestJson="accountNo" />
+        <field ref="SERVICE_CODE" request="O" response="O" requestJson="serviceCode" />
+        <field ref="CUSTOMER_CODE" request="O" response="O" requestJson="customerCodeMb" />
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="signatureUrl" />
+        <field ref="CUSTOMER_SIGNATURE" request="O" response="O" requestJson="customerSignature" />
+        <field ref="VENUE_ID" request="O" response="O" requestJson="srcRequestId" />
+        <field ref="IDENTITY_NO" request="O" response="O" requestJson="idNumber" />
+        <field ref="CARD_STATUS" request="O" response="O" requestJson="statusBenMMEgate" />
+        <field ref="REMAINING_PAYMENT" request="O" response="O" requestJson="excessAmount" />
+        <field ref="ATM_AMOUNT_CHECK" request="O" response="O" requestJson="debitAmountTelco" />
+        <field ref="CREDIT_AMOUNT" request="O" response="O" requestJson="finalAmountEgate" />
+        <field ref="ACCOUNT_CHECK_TYPE" request="O" response="O" requestJson="isPaySelfTelco" />
+        <field ref="INTEREST_PERCENT" request="M" response="O" requestJson="orgDiscountPercent" />
+
+    </isomsg>
+
+    <isomsg processCode="311000_PA2">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="blProcessCode" responseJson="blProcessCode" />
+        <field ref="TELCO_CODE" request="M" requestJson="clientId" />
+        <field ref="MSISDN" request="M" response="M" requestJson="blMobileNumber" responseJson="blMobileNumber" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="blBankCode" responseJson="blBankCode" />
+        <field ref="TRANSACTION_TYPE" request="M" response="O" requestJson="blTransType" responseJson="blTransType" />
+        <field ref="REQUEST_ID" request="M" response="O" requestJson="blReqId" responseJson="blReqId" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="BALANCE" response="O" responseJson="blBalance" />
+    </isomsg>
+<!-- iso ban tin luong tra tien kho bac nha nuoc voi viettienbank -->
+    <isomsg processCode="679001">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="processCode" responseJson="processCode" defaultRequestValue="679001" />
+        <!--mathamchieu       -->
+        <field ref="REF_NO" request="O" response="O" requestJson="referenceCode" responseJson="referenceCode" />
+        <!--madoitac      -->
+        <field ref="CUSTOMER_CODE_VT" request="M" response="O" requestJson="customerCodeVT" />
+        <!--magdviettel       -->
+        <field ref="REQUEST_ID" request="M" response="M" requestJson="requestId" responseJson="requestId" />
+        <!--sotien       -->
+        <field ref="TRANSACTION_AMOUNT" request="M" requestJson="amount" response="O" responseJson="amount" />
+        <!--matiente       -->
+        <field ref="CURRENCY_CODE" response="O" responseJson="currCode" />
+        <!--thongtingiaodich       -->
+        <field ref="CONTENT_DESCRIPTION_TRANSACTION" request="M" response="O" requestJson="contentDescService" responseJson="contentDescService" />
+
+        <!--ip        -->
+        <field ref="SYSTEM_TRACE" request="M" response="M" requestJson="ip" responseJson="ip" />
+        <!--thongtinbienlai        -->
+        <field ref="ADDITION_DATA" response="M" responseJson="miniStatementData" />
+        <!-- field de luu id bien lai       -->
+        <field ref="ORINGINAL_REQUEST_ID" request="M" requestJson="orderId" response="O" responseJson="orderId" />
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="tidNumber" responseJson="tidNumber" />
+        <field ref="BUSINESS_NO" request="O" response="O" requestJson="servicesReceiptInfoId" responseJson="servicesReceiptInfoId" />
+        <field ref="BANK_TRANS_ID" request="M" response="M" requestJson="bankTransId" responseJson="bankTransId"/>
+    </isomsg>
+
+    <isomsg processCode="FEC001_300001">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="serviceCode" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="INTEREST_TYPE" request="O" response="O" requestJson="interestType" responseJson="interestType" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="DISCOUNT" request="O" response="O" requestJson="discountAmount" responseJson="discountAmount" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="contentDescService" responseJson="contentDescService" />
+        <field ref="VT_SHOP_NAME" request="O" response="O" requestJson="serviceName" responseJson="serviceName" />
+        <field ref="CHANNEL_TYPE_ID" request="O" response="O" requestJson="channelTypeId" responseJson="channelTypeId" />
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="tidNumber" responseJson="tidNumber" />
+        <field ref="ORINGINAL_REQUEST_ID" request="M" response="O" requestJson="srcRequestId" responseJson="srcRequestId" />
+        <field ref="INTEREST_AMOUNT" request="M" response="O" requestJson="fee" responseJson="fee" />
+        <field ref="ACCOUNT_NO" request="M" response="O" requestJson="accountNumber" responseJson="accountNumber" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" response="O" requestJson="creditAccountNumber" responseJson="creditAccountNumber" />
+        <field ref="OTP" request="M" response="O" requestJson="otp" responseJson="otp" />
+        <field ref="DISCOUNT_BANK" request="O" response="O" requestJson="discountAmount" responseJson="discountAmount" />
+    </isomsg>
+
+    <!-- thangtv26 Revert thanh toan LOAN FEC -->
+    <isomsg processCode="FEC001_690001_REVERT">
+        <field ref="REQUEST_ID" request="M" response="M" requestJson="refundRequestId" responseJson="refundRequestId" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="serviceCode" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="INTEREST_TYPE" request="O" response="O" requestJson="interestType" responseJson="interestType" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="DISCOUNT" request="O" response="O" requestJson="discountAmount" responseJson="discountAmount" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" response="O" requestJson="creditAccountNumber" responseJson="creditAccountNumber" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="contentDescService" responseJson="contentDescService" />
+        <field ref="VT_SHOP_NAME" request="O" response="O" requestJson="serviceName" responseJson="serviceName" />
+        <field ref="CHANNEL_TYPE_ID" request="O" response="O" requestJson="channelTypeId" responseJson="channelTypeId" />
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="tidNumber" responseJson="tidNumber" />
+        <field ref="ORINGINAL_REQUEST_ID" request="M" response="O" requestJson="srcRequestId" responseJson="srcRequestId" />
+        <field ref="INTEREST_AMOUNT" request="M" response="O" requestJson="fee" responseJson="fee" />
+        <field ref="ACCOUNT_NO" request="M" response="O" requestJson="accountNumber" responseJson="accountNumber" />
+        <field ref="OTP" request="M" response="O" requestJson="otp" responseJson="otp" />
+        <field ref="DISCOUNT_BANK" request="O" response="O" requestJson="discountAmount" responseJson="discountAmount" />
+    </isomsg>
+
+    <!-- get otp thanh toan FE -->
+    <isomsg processCode="FEC002">
+        <field ref="REQUEST_ID" request="M" response="M" requestJson="requestId" responseJson="requestId" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <!-- <field ref="MOBILE_NUMBER" request="M" response="M" requestJson="msisdn"/> -->
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="serviceCode" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="contentDescService" responseJson="contentDescService" />
+        <field ref="ORINGINAL_REQUEST_ID" request="M" response="O" requestJson="originalRequestId" responseJson="originalRequestId" />
+        <field ref="REF_NO" request="O" response="O" requestJson="referenceNumber" responseJson="referenceNumber" />
+        <field ref="DISCOUNT" request="O" response="O" requestJson="discountAmount" responseJson="discountAmount" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" response="O" requestJson="creditAccountNumber" responseJson="creditAccountNumber" />
+        <field ref="IDENTITY_NO" request="O" response="O" requestJson="idNumber" responseJson="idNumber" />
+        <field ref="VENUE_ID" request="O" response="O" requestJson="venueId" responseJson="venueId" />
+        <field ref="CARD_CVV" request="O" response="O" requestJson="cardSecurityCode" responseJson="cardSecurityCode" />
+        <field ref="SYSTEM_TRACE" request="O" response="O" requestJson="systemTrace" responseJson="systemTrace" />
+        <field ref="INTEREST_AMOUNT" request="M" response="O" requestJson="fee" responseJson="fee" />
+        <field ref="DISCOUNT_BANK" request="O" response="O" requestJson="discountAmount" responseJson="discountAmount" />
+    </isomsg>
+
+    <!-- thangtv30 Gach no merchant LOAN FE -->
+    <isomsg processCode="MGW_FEC001">
+        <field ref="TELCO_CODE" request="M" requestJson="clientId" />
+        <field ref="TRANSACTION_TYPE" request="O" requestJson="transactionType" />
+        <field ref="MTI" request="M" response="M" requestJson="requestMti" responseJson="responseMti" defaultRequestValue="0500" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="merchantProcessCode" responseJson="merchantProcessCode" defaultRequestValue="300001" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="serviceCode" />
+        <field ref="SERVICE_INDICATOR" request="O" requestJson="serviceIndicator" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="TRANSACTION_TYPE" request="O" response="O" requestJson="transType" responseJson="transType" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="tidNumber" responseJson="tidNumber" />
+        <field ref="ADDITION_DATA" request="O" response="O" requestJson="miniStatementData" responseJson="miniStatementData" />
+        <field ref="CUSTOMER_NAME" request="O" response="O" requestJson="customerName" />
+        <field ref="STATUS" request="O" response="O" requestJson="status" responseJson="status" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" responseJson="benName" />
+        <field ref="PLACE_ISSUSE" request="O" response="O" responseJson="placeOfIssue" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="contentDescService" responseJson="contentDescService" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" responseJson="transContent" />
+        <field ref="ORINGINAL_REQUEST_ID" request="O" response="O" requestJson="srcRequestId" responseJson="srcRequestId" />
+        <field ref="VT_SHOP_NAME" request="O" response="O" requestJson="customer" responseJson="customer" />
+    </isomsg>
+
+    <!-- LOAN FE getDebt -->
+    <isomsg processCode="MGW_FEC002">
+        <field ref="TELCO_CODE" request="M" requestJson="clientId" />
+        <field ref="TRANSACTION_TYPE" request="O" requestJson="transactionType" />
+        <field ref="MTI" request="M" response="M" requestJson="requestMti" responseJson="responseMti" defaultRequestValue="0500" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="merchantProcessCode" responseJson="merchantProcessCode" defaultRequestValue="300000" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="serviceCode" />
+        <field ref="SERVICE_INDICATOR" request="O" requestJson="serviceIndicator" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="TRANSACTION_TYPE" request="O" response="O" requestJson="transType" responseJson="transType" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="tidNumber" responseJson="tidNumber" />
+        <field ref="ADDITION_DATA" request="O" response="O" requestJson="miniStatementData" responseJson="miniStatementData" />
+        <field ref="CUSTOMER_NAME" request="O" response="O" requestJson="customerName" />
+        <field ref="STATUS" request="O" response="O" requestJson="status" responseJson="status" />
+        <field ref="BENEFICIARY_NAME" request="O" response="O" responseJson="benName" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="contentDescService" responseJson="contentDescService" />
+        <field ref="VT_SHOP_NAME" request="O" response="O" requestJson="shopName" responseJson="shopName" />
+    </isomsg>
+
+    <!-- get otp thanh toan FE topup-->
+    <isomsg processCode="FEC003">
+        <field ref="REQUEST_ID" request="M" response="M" requestJson="requestId" responseJson="requestId" />
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="egateProcessCode" responseJson="egateProcessCode" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="M" response="M" requestJson="moneySourceBankCode" responseJson="moneySourceBankCode" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" />
+        <field ref="BILLING_CODE" request="M" response="M" requestJson="billingCode" />
+        <field ref="SERVICE_CODE" request="M" response="M" requestJson="serviceCode" />
+        <field ref="TRANSACTION_AMOUNT" request="O" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="contentDescService" responseJson="contentDescService" />
+        <field ref="ORINGINAL_REQUEST_ID" request="M" response="O" requestJson="originalRequestId" responseJson="originalRequestId" />
+        <field ref="REF_NO" request="O" response="O" requestJson="referenceNumber" responseJson="referenceNumber" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" response="O" requestJson="creditAccountNumber" responseJson="creditAccountNumber" />
+        <field ref="IDENTITY_NO" request="O" response="O" requestJson="idNumber" responseJson="idNumber" />
+        <field ref="VENUE_ID" request="O" response="O" requestJson="venueId" responseJson="venueId" />
+        <field ref="CARD_CVV" request="O" response="O" requestJson="cardSecurityCode" responseJson="cardSecurityCode" />
+        <field ref="SYSTEM_TRACE" request="O" response="O" requestJson="systemTrace" responseJson="systemTrace" />
+        <field ref="INTEREST_AMOUNT" request="M" response="O" requestJson="fee" responseJson="fee" />
+        <field ref="DISCOUNT_BANK" request="O" response="O" requestJson="discountAmount" responseJson="discountAmount" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+    </isomsg>
+    <!--end get otp thanh toan FE topup-->
+
+    <!-- thanh toan FE topup-->
+    <isomsg processCode="FEC004">
+        <field ref="PROCESS_CODE" request="M" response="M" requestJson="coreProcessCode" responseJson="coreProcessCode" />
+        <field ref="TRANSACTION_AMOUNT" request="M" response="O" requestJson="amount" responseJson="amount" />
+        <field ref="TELCO_CODE" request="M" requestJson="clientId" />
+        <field ref="MSISDN" request="M" response="M" requestJson="msisdn" responseJson="msisdn" />
+        <field ref="OTP" request="M" requestJson="otp" />
+        <field ref="PASSWORD" request="M" response="O" requestJson="pin" />
+        <field ref="TRANSACTION_TYPE" request="O" response="O" requestJson="transType" />
+        <field ref="DISCOUNT_PERCENT" request="O" response="O" requestJson="discountPercent" />
+        <field ref="DISCOUNT" request="O" response="O" requestJson="discountAmount" />
+        <field ref="CONTENT_DESCRIPTIONS_SERVICE" request="O" response="O" requestJson="transContent" responseJson="transContent" />
+        <field ref="CUSTOMER_CODE_VT" request="O" response="O" requestJson="customerCodeVT" />
+        <field ref="VIETTEL_BANK_CODE" response="M" request="M" requestJson="bankCode" responseJson="bankCode" />
+        <field ref="TRANSACTION_FEE" request="O" response="O" requestJson="transFee" responseJson="transFee" />
+        <field ref="SERVICE_INDICATOR" request="M" response="O" requestJson="serviceIndicator" />
+        <field ref="PAYMENT_TYPE" request="O" response="O" requestJson="paymentType" responseJson="paymentType" />
+        <field ref="INTEREST_TYPE" request="M" response="O" requestJson="interestType" />
+        <field ref="INTEREST_AMOUNT" request="M" response="O" requestJson="fee" responseJson="fee" />
+        <field ref="MONEY_SOURCE_BANK_CODE" request="O" response="O" requestJson="moneySourceBankCode" />
+        <field ref="AGENT_CODE" request="O" response="O" requestJson="agentCode" />
+        <field ref="DISCOUNT_BANK" request="O" response="O" requestJson="discountBank" responseJson="discountBank" />
+        <field ref="VT_SHOP_NAME" request="O" response="O" requestJson="shopName" />
+        <field ref="ACCOUNT_NO" request="O" response="O" requestJson="accountNo" />
+        <field ref="SERVICE_CODE" request="O" response="O" requestJson="serviceCode" />
+        <field ref="CUSTOMER_CODE" request="O" response="O" requestJson="customerCodeMb" />
+        <field ref="SIGNATURE_URL" request="O" response="O" requestJson="signatureUrl" />
+        <field ref="CUSTOMER_SIGNATURE" request="O" response="O" requestJson="customerSignature" />
+        <field ref="VENUE_ID" request="O" response="O" requestJson="srcRequestId" />
+        <field ref="IDENTITY_NO" request="O" response="O" requestJson="idNumber" />
+        <field ref="CARD_STATUS" request="O" response="O" requestJson="statusBenMMEgate" />
+        <field ref="REMAINING_PAYMENT" request="O" response="O" requestJson="excessAmount" />
+        <field ref="ATM_AMOUNT_CHECK" request="O" response="O" requestJson="debitAmountTelco" />
+        <field ref="CREDIT_AMOUNT" request="O" response="O" requestJson="finalAmountEgate" />
+        <field ref="INTEREST_PERCENT" request="M" response="O" requestJson="orgDiscountPercent" />
+        <field ref="ORINGINAL_REQUEST_ID" request="M" response="O" requestJson="order_id" responseJson="order_id" />
+        <field ref="ADDITIONAL_DATA" request="M" response="O" requestJson="additionalData" responseJson="additionalData" />
+        <field ref="CHANNEL_TYPE_ID" request="O" response="O" requestJson="channelTypeId" responseJson="channelTypeId" />
+        <field ref="TID_NUMBER" request="O" response="O" requestJson="tidNumber" responseJson="tidNumber" />
+        <field ref="BENEFICIARY_ACCOUNT_NO" request="O" response="O" requestJson="creditAccountNumber" responseJson="creditAccountNumber" />
+    </isomsg>
+    <!--end thanh toan FE topup-->
+
+</bankplus>
